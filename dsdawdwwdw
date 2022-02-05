@@ -1,0 +1,3387 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Activation = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local Gradient = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local Main = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Frame_2 = Instance.new("Frame")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Frame_3 = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Frame_4 = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Frame_5 = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Frame_6 = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local Info = Instance.new("Frame")
+local UICorner_11 = Instance.new("UICorner")
+local Frame_7 = Instance.new("Frame")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextButton_6 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Frame_8 = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local Premium = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
+local Frame_9 = Instance.new("Frame")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextButton_7 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local Frame_10 = Instance.new("Frame")
+local UICorner_16 = Instance.new("UICorner")
+local TextButton_8 = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local Frame_11 = Instance.new("Frame")
+local UICorner_18 = Instance.new("UICorner")
+local TextButton_9 = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local Frame_12 = Instance.new("Frame")
+local UICorner_20 = Instance.new("UICorner")
+local TextButton_10 = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local Frame_13 = Instance.new("Frame")
+local UICorner_22 = Instance.new("UICorner")
+local TextLabel_11 = Instance.new("TextLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextButton_11 = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local Frame_14 = Instance.new("Frame")
+local UICorner_24 = Instance.new("UICorner")
+local TextLabel_13 = Instance.new("TextLabel")
+local TextButton_12 = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local Frame_15 = Instance.new("Frame")
+local UICorner_26 = Instance.new("UICorner")
+local TextLabel_14 = Instance.new("TextLabel")
+local TextButton_13 = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local Frame_16 = Instance.new("Frame")
+local UICorner_28 = Instance.new("UICorner")
+local TextLabel_15 = Instance.new("TextLabel")
+local Frame_17 = Instance.new("Frame")
+local TextButton_14 = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local Frame_18 = Instance.new("Frame")
+local UICorner_30 = Instance.new("UICorner")
+local TextLabel_16 = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local TextButton_15 = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local TextButton_16 = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local Frame_19 = Instance.new("Frame")
+local UICorner_33 = Instance.new("UICorner")
+local Premium2 = Instance.new("Frame")
+local UICorner_34 = Instance.new("UICorner")
+local Frame_20 = Instance.new("Frame")
+local TextLabel_17 = Instance.new("TextLabel")
+local TextButton_17 = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local Frame_21 = Instance.new("Frame")
+local UICorner_36 = Instance.new("UICorner")
+local TextButton_18 = Instance.new("TextButton")
+local UICorner_37 = Instance.new("UICorner")
+local Frame_22 = Instance.new("Frame")
+local UICorner_38 = Instance.new("UICorner")
+local TextLabel_18 = Instance.new("TextLabel")
+local Frame_23 = Instance.new("Frame")
+local TextButton_19 = Instance.new("TextButton")
+local UICorner_39 = Instance.new("UICorner")
+local Frame_24 = Instance.new("Frame")
+local UICorner_40 = Instance.new("UICorner")
+local TextLabel_19 = Instance.new("TextLabel")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local TextButton_20 = Instance.new("TextButton")
+local UICorner_41 = Instance.new("UICorner")
+local TextButton_21 = Instance.new("TextButton")
+local UICorner_42 = Instance.new("UICorner")
+local Frame_25 = Instance.new("Frame")
+local UICorner_43 = Instance.new("UICorner")
+local TextButton_22 = Instance.new("TextButton")
+local UICorner_44 = Instance.new("UICorner")
+local Frame_26 = Instance.new("Frame")
+local UICorner_45 = Instance.new("UICorner")
+local TextLabel_20 = Instance.new("TextLabel")
+local TextButton_23 = Instance.new("TextButton")
+local UICorner_46 = Instance.new("UICorner")
+local Frame_27 = Instance.new("Frame")
+local UICorner_47 = Instance.new("UICorner")
+local TextLabel_21 = Instance.new("TextLabel")
+local TextButton_24 = Instance.new("TextButton")
+local UICorner_48 = Instance.new("UICorner")
+local Frame_28 = Instance.new("Frame")
+local UICorner_49 = Instance.new("UICorner")
+local TextLabel_22 = Instance.new("TextLabel")
+local TextButton_25 = Instance.new("TextButton")
+local UICorner_50 = Instance.new("UICorner")
+local Frame_29 = Instance.new("Frame")
+local UICorner_51 = Instance.new("UICorner")
+local TextLabel_23 = Instance.new("TextLabel")
+local OpenButton1 = Instance.new("TextButton")
+local UICorner_52 = Instance.new("UICorner")
+local Frame_30 = Instance.new("Frame")
+local UICorner_53 = Instance.new("UICorner")
+local OpenButton2 = Instance.new("TextButton")
+local UICorner_54 = Instance.new("UICorner")
+local Frame_31 = Instance.new("Frame")
+local UICorner_55 = Instance.new("UICorner")
+local Activate = Instance.new("Frame")
+local UICorner_56 = Instance.new("UICorner")
+local Frame_32 = Instance.new("Frame")
+local TextLabel_24 = Instance.new("TextLabel")
+local TextButton2 = Instance.new("TextButton")
+local UICorner_57 = Instance.new("UICorner")
+local Frame_33 = Instance.new("Frame")
+local UICorner_58 = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local UICorner_59 = Instance.new("UICorner")
+local Frame_34 = Instance.new("Frame")
+local UICorner_60 = Instance.new("UICorner")
+local TextButton_26 = Instance.new("TextButton")
+local UICorner_61 = Instance.new("UICorner")
+local Frame_35 = Instance.new("Frame")
+local UICorner_62 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+Activation.Name = "Activation"
+Activation.Parent = ScreenGui
+Activation.Active = true
+Activation.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+Activation.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Activation.BorderSizePixel = 0
+Activation.Position = UDim2.new(0.401483417, 0, 0.186000004, 0)
+Activation.Size = UDim2.new(0, 400, 0, 426)
+
+UICorner.CornerRadius = UDim.new(0, 4)
+UICorner.Parent = Activation
+
+TextLabel.Parent = Activation
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 400, 0, 50)
+TextLabel.Font = Enum.Font.GothamBold
+TextLabel.Text = "Magic Ware - FREE"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+Frame.Parent = Activation
+Frame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame.Position = UDim2.new(0, 0, 0.117370889, 0)
+Frame.Size = UDim2.new(0, 400, 0, 0)
+
+TextLabel_2.Parent = Activation
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(-0.0225000009, 0, 0.948356807, 0)
+TextLabel_2.Size = UDim2.new(0, 127, 0, 16)
+TextLabel_2.Font = Enum.Font.GothamBold
+TextLabel_2.Text = "Version 2.00"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextTransparency = 0.630
+TextLabel_2.TextWrapped = true
+
+TextButton.Parent = Activation
+TextButton.BackgroundColor3 = Color3.fromRGB(124, 124, 124)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.0450000018, 0, 0.781690121, 0)
+TextButton.Size = UDim2.new(0, 364, 0, 63)
+TextButton.Font = Enum.Font.SourceSansBold
+TextButton.Text = "Continue(5)"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+Gradient.Name = "Gradient"
+Gradient.Parent = Activation
+Gradient.BackgroundColor3 = Color3.fromRGB(89, 89, 89)
+Gradient.BackgroundTransparency = 0.450
+Gradient.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Gradient.BorderSizePixel = 0
+Gradient.Position = UDim2.new(0, 0, 0.138518423, 0)
+Gradient.Size = UDim2.new(0, 400, 0, 263)
+
+TextLabel_3.Parent = Gradient
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0, 0, -0.0190113783, 0)
+TextLabel_3.Size = UDim2.new(0, 400, 0, 273)
+TextLabel_3.Font = Enum.Font.SourceSansItalic
+TextLabel_3.Text = "Welcome To Magicware, To Activate The Script Please Equip Your Wand And Type \"Avada Kedavra\" Then Shoot Anywhere on the ground, After You've Done That Press Continue."
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = Gradient
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.245000005, 0, -0.0570678711, 0)
+TextLabel_4.Size = UDim2.new(0, 218, 0, 22)
+TextLabel_4.Font = Enum.Font.SourceSansItalic
+TextLabel_4.Text = "Read Below!"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 50.000
+TextLabel_4.TextWrapped = true
+
+TextLabel_5.Parent = Activation
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.662500024, 0, 0.718309879, 0)
+TextLabel_5.Size = UDim2.new(0, 127, 0, 16)
+TextLabel_5.Font = Enum.Font.GothamBold
+TextLabel_5.Text = "Needs to be normal wand."
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextTransparency = 0.630
+TextLabel_5.TextWrapped = true
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.Active = true
+Main.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+Main.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.415959895, 0, 0.243740797, 0)
+Main.Size = UDim2.new(0, 356, 0, 225)
+Main.Visible = false
+
+UICorner_2.CornerRadius = UDim.new(0, 4)
+UICorner_2.Parent = Main
+
+Frame_2.Parent = Main
+Frame_2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_2.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_2.Position = UDim2.new(0, 0, 0.166339129, 0)
+Frame_2.Size = UDim2.new(0, 356, 0, 6)
+
+TextLabel_6.Parent = Main
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Size = UDim2.new(0, 356, 0, 38)
+TextLabel_6.Font = Enum.Font.GothamBold
+TextLabel_6.Text = "Magic Ware - FREE"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+TextButton_2.Parent = Main
+TextButton_2.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextButton_2.Position = UDim2.new(0.213547722, 0, 0.245549977, 0)
+TextButton_2.Size = UDim2.new(0, 200, 0, 50)
+TextButton_2.Font = Enum.Font.SourceSansItalic
+TextButton_2.Text = "Kill All"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+UICorner_3.Parent = TextButton_2
+
+Frame_3.Parent = TextButton_2
+Frame_3.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_3.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_3.Position = UDim2.new(-0.00339080812, 0, 1, 0)
+Frame_3.Size = UDim2.new(0, 200, 0, 8)
+
+UICorner_4.Parent = Frame_3
+
+TextLabel_7.Parent = Main
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.317141294, 0, 0.502890706, 0)
+TextLabel_7.Size = UDim2.new(0, 123, 0, 12)
+TextLabel_7.Font = Enum.Font.GothamBold
+TextLabel_7.Text = "Buggy Sometimes."
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextTransparency = 0.660
+TextLabel_7.TextWrapped = true
+
+TextButton_3.Parent = Main
+TextButton_3.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextButton_3.Position = UDim2.new(0.211562067, 0, 0.658565819, 0)
+TextButton_3.Size = UDim2.new(0, 200, 0, 50)
+TextButton_3.Font = Enum.Font.SourceSansItalic
+TextButton_3.Text = "Infinite Yield"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+UICorner_5.Parent = TextButton_3
+
+Frame_4.Parent = TextButton_3
+Frame_4.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_4.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_4.Position = UDim2.new(-0.00339080812, 0, 1, 0)
+Frame_4.Size = UDim2.new(0, 200, 0, 8)
+
+UICorner_6.Parent = Frame_4
+
+TextButton_4.Parent = Main
+TextButton_4.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextButton_4.Position = UDim2.new(0.818303645, 0, 0.743010223, 0)
+TextButton_4.Size = UDim2.new(0, 64, 0, 50)
+TextButton_4.Font = Enum.Font.SourceSansItalic
+TextButton_4.Text = "How To Buy MagicWare"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextStrokeTransparency = 1.010
+TextButton_4.TextWrapped = true
+
+UICorner_7.Parent = TextButton_4
+
+Frame_5.Parent = TextButton_4
+Frame_5.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_5.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_5.Position = UDim2.new(-0.00339126587, 0, 1, 0)
+Frame_5.Size = UDim2.new(0, 64, 0, 8)
+
+UICorner_8.Parent = Frame_5
+
+TextButton_5.Parent = Main
+TextButton_5.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextButton_5.Position = UDim2.new(0.0205508452, 0, 0.694121361, 0)
+TextButton_5.Size = UDim2.new(0, 56, 0, 61)
+TextButton_5.Font = Enum.Font.SourceSansItalic
+TextButton_5.Text = "Enter Premium Activiation Key"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 14.000
+TextButton_5.TextStrokeTransparency = 1.010
+TextButton_5.TextWrapped = true
+
+UICorner_9.Parent = TextButton_5
+
+Frame_6.Parent = TextButton_5
+Frame_6.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_6.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_6.Position = UDim2.new(-0.00339072198, 0, 1, 0)
+Frame_6.Size = UDim2.new(0, 55, 0, 8)
+
+UICorner_10.Parent = Frame_6
+
+Info.Name = "Info"
+Info.Parent = ScreenGui
+Info.Active = true
+Info.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+Info.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Info.BorderSizePixel = 0
+Info.Position = UDim2.new(0.415959895, 0, 0.243740767, 0)
+Info.Size = UDim2.new(0, 356, 0, 225)
+Info.Visible = false
+
+UICorner_11.CornerRadius = UDim.new(0, 4)
+UICorner_11.Parent = Info
+
+Frame_7.Parent = Info
+Frame_7.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_7.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_7.Position = UDim2.new(0, 0, 0.166339129, 0)
+Frame_7.Size = UDim2.new(0, 356, 0, 6)
+
+TextLabel_8.Parent = Info
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Size = UDim2.new(0, 356, 0, 38)
+TextLabel_8.Font = Enum.Font.GothamBold
+TextLabel_8.Text = "Magic Ware - FREE"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+
+TextLabel_9.Parent = Info
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0, 0, 0.191779509, 0)
+TextLabel_9.Size = UDim2.new(0, 356, 0, 118)
+TextLabel_9.Font = Enum.Font.GothamBold
+TextLabel_9.Text = "The Paid MagicWare Includes Lash All And More, To Buy It Join  The Discord Server And Follow The Instructions In #buy-magicware. The Price Is: 50 Robux (We host magicware paid giveaways daily!)"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
+TextButton_6.Parent = Info
+TextButton_6.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextButton_6.Position = UDim2.new(0.208753079, 0, 0.716343641, 0)
+TextButton_6.Size = UDim2.new(0, 200, 0, 50)
+TextButton_6.Font = Enum.Font.SourceSansItalic
+TextButton_6.Text = "Close"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14.000
+TextButton_6.TextWrapped = true
+
+UICorner_12.Parent = TextButton_6
+
+Frame_8.Parent = TextButton_6
+Frame_8.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_8.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_8.Position = UDim2.new(-0.00339080812, 0, 1, 0)
+Frame_8.Size = UDim2.new(0, 200, 0, 8)
+
+UICorner_13.Parent = Frame_8
+
+Premium.Name = "Premium"
+Premium.Parent = ScreenGui
+Premium.Active = true
+Premium.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+Premium.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Premium.BorderSizePixel = 0
+Premium.Position = UDim2.new(0.305705488, 0, 0.243740797, 0)
+Premium.Size = UDim2.new(0, 624, 0, 376)
+Premium.Visible = false
+
+UICorner_14.CornerRadius = UDim.new(0, 4)
+UICorner_14.Parent = Premium
+
+Frame_9.Parent = Premium
+Frame_9.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_9.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_9.Position = UDim2.new(0, 0, 0.0998497829, 0)
+Frame_9.Size = UDim2.new(0, 624, 0, 7)
+
+TextLabel_10.Parent = Premium
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Size = UDim2.new(0, 624, 0, 38)
+TextLabel_10.Font = Enum.Font.GothamBold
+TextLabel_10.Text = "Magic Ware - Premium"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+
+TextButton_7.Parent = Premium
+TextButton_7.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextButton_7.Position = UDim2.new(0.213547707, 0, 0.139166996, 0)
+TextButton_7.Size = UDim2.new(0, 200, 0, 50)
+TextButton_7.Font = Enum.Font.SourceSansItalic
+TextButton_7.Text = "Kill All"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextScaled = true
+TextButton_7.TextSize = 14.000
+TextButton_7.TextWrapped = true
+
+UICorner_15.Parent = TextButton_7
+
+Frame_10.Parent = TextButton_7
+Frame_10.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_10.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_10.Position = UDim2.new(-0.00339080812, 0, 1, 0)
+Frame_10.Size = UDim2.new(0, 200, 0, 8)
+
+UICorner_16.Parent = Frame_10
+
+TextButton_8.Parent = Premium
+TextButton_8.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextButton_8.Position = UDim2.new(0.211562067, 0, 0.682501972, 0)
+TextButton_8.Size = UDim2.new(0, 200, 0, 50)
+TextButton_8.Font = Enum.Font.SourceSansItalic
+TextButton_8.Text = "Infinite Yield"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextScaled = true
+TextButton_8.TextSize = 14.000
+TextButton_8.TextWrapped = true
+
+UICorner_17.Parent = TextButton_8
+
+Frame_11.Parent = TextButton_8
+Frame_11.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_11.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_11.Position = UDim2.new(-0.00339080812, 0, 1, 0)
+Frame_11.Size = UDim2.new(0, 200, 0, 8)
+
+UICorner_18.Parent = Frame_11
+
+TextButton_9.Parent = Premium
+TextButton_9.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextButton_9.Position = UDim2.new(0.91445744, 0, 0.139166981, 0)
+TextButton_9.Size = UDim2.new(0, 45, 0, 311)
+TextButton_9.Font = Enum.Font.SourceSansItalic
+TextButton_9.Text = "If It Doesn't Work Spam The Buttons, Make Sure You Typed The Spell Listed On The Bottom."
+TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.TextScaled = true
+TextButton_9.TextSize = 14.000
+TextButton_9.TextStrokeTransparency = 1.010
+TextButton_9.TextWrapped = true
+
+UICorner_19.Parent = TextButton_9
+
+Frame_12.Parent = TextButton_9
+Frame_12.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_12.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_12.Position = UDim2.new(-0.00339084212, 0, 1, 0)
+Frame_12.Size = UDim2.new(0, 45, 0, 8)
+
+UICorner_20.Parent = Frame_12
+
+TextButton_10.Parent = Premium
+TextButton_10.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextButton_10.Position = UDim2.new(0.213547722, 0, 0.394486159, 0)
+TextButton_10.Size = UDim2.new(0, 200, 0, 50)
+TextButton_10.Font = Enum.Font.SourceSansItalic
+TextButton_10.Text = "Lash All"
+TextButton_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.TextScaled = true
+TextButton_10.TextSize = 14.000
+TextButton_10.TextWrapped = true
+
+UICorner_21.Parent = TextButton_10
+
+Frame_13.Parent = TextButton_10
+Frame_13.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_13.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_13.Position = UDim2.new(-0.00339080812, 0, 1, 0)
+Frame_13.Size = UDim2.new(0, 200, 0, 8)
+
+UICorner_22.Parent = Frame_13
+
+TextLabel_11.Parent = Premium
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(0.242144853, 0, 0.548103511, 0)
+TextLabel_11.Size = UDim2.new(0, 164, 0, 27)
+TextLabel_11.Font = Enum.Font.GothamBold
+TextLabel_11.Text = "Type \"Incarcerous\" And Shoot On The Ground Before Clicking."
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextTransparency = 0.270
+TextLabel_11.TextWrapped = true
+
+TextLabel_12.Parent = Premium
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Position = UDim2.new(0.242144853, 0, 0.292784363, 0)
+TextLabel_12.Size = UDim2.new(0, 164, 0, 27)
+TextLabel_12.Font = Enum.Font.GothamBold
+TextLabel_12.Text = "Type \"Avada Kedavra\" And Shoot On The Ground Before Clicking."
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextTransparency = 0.270
+TextLabel_12.TextWrapped = true
+
+TextButton_11.Parent = Premium
+TextButton_11.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextButton_11.Position = UDim2.new(0.575727224, 0, 0.139166996, 0)
+TextButton_11.Size = UDim2.new(0, 200, 0, 50)
+TextButton_11.Font = Enum.Font.SourceSansItalic
+TextButton_11.Text = "Stone All"
+TextButton_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_11.TextScaled = true
+TextButton_11.TextSize = 14.000
+TextButton_11.TextWrapped = true
+
+UICorner_23.Parent = TextButton_11
+
+Frame_14.Parent = TextButton_11
+Frame_14.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_14.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_14.Position = UDim2.new(-0.00339080812, 0, 1, 0)
+Frame_14.Size = UDim2.new(0, 200, 0, 8)
+
+UICorner_24.Parent = Frame_14
+
+TextLabel_13.Parent = Premium
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.Position = UDim2.new(0.604324341, 0, 0.292784363, 0)
+TextLabel_13.Size = UDim2.new(0, 164, 0, 27)
+TextLabel_13.Font = Enum.Font.GothamBold
+TextLabel_13.Text = "Type \"Duro\" And Shoot On The Ground Before Clicking."
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextScaled = true
+TextLabel_13.TextSize = 14.000
+TextLabel_13.TextTransparency = 0.270
+TextLabel_13.TextWrapped = true
+
+TextButton_12.Parent = Premium
+TextButton_12.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextButton_12.Position = UDim2.new(0.575727224, 0, 0.394486129, 0)
+TextButton_12.Size = UDim2.new(0, 200, 0, 50)
+TextButton_12.Font = Enum.Font.SourceSansItalic
+TextButton_12.Text = "Bubble All"
+TextButton_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_12.TextScaled = true
+TextButton_12.TextSize = 14.000
+TextButton_12.TextWrapped = true
+
+UICorner_25.Parent = TextButton_12
+
+Frame_15.Parent = TextButton_12
+Frame_15.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_15.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_15.Position = UDim2.new(-0.00339080812, 0, 1, 0)
+Frame_15.Size = UDim2.new(0, 200, 0, 8)
+
+UICorner_26.Parent = Frame_15
+
+TextLabel_14.Parent = Premium
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.Position = UDim2.new(0.604324341, 0, 0.548103511, 0)
+TextLabel_14.Size = UDim2.new(0, 164, 0, 27)
+TextLabel_14.Font = Enum.Font.GothamBold
+TextLabel_14.Text = "Type \"Ebublio\" And Shoot On The Ground Before Clicking."
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextScaled = true
+TextLabel_14.TextSize = 14.000
+TextLabel_14.TextTransparency = 0.270
+TextLabel_14.TextWrapped = true
+
+TextButton_13.Parent = Premium
+TextButton_13.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextButton_13.Position = UDim2.new(0.575727224, 0, 0.681720138, 0)
+TextButton_13.Size = UDim2.new(0, 200, 0, 50)
+TextButton_13.Font = Enum.Font.SourceSansItalic
+TextButton_13.Text = "Bighead All"
+TextButton_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_13.TextScaled = true
+TextButton_13.TextSize = 14.000
+TextButton_13.TextWrapped = true
+
+UICorner_27.Parent = TextButton_13
+
+Frame_16.Parent = TextButton_13
+Frame_16.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_16.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_16.Position = UDim2.new(-0.00339080812, 0, 1, 0)
+Frame_16.Size = UDim2.new(0, 200, 0, 8)
+
+UICorner_28.Parent = Frame_16
+
+TextLabel_15.Parent = Premium
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.Position = UDim2.new(0.604324341, 0, 0.835337579, 0)
+TextLabel_15.Size = UDim2.new(0, 164, 0, 27)
+TextLabel_15.Font = Enum.Font.GothamBold
+TextLabel_15.Text = "Type \"Engorgio Skullus\" And Shoot On The Ground Before Clicking."
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextScaled = true
+TextLabel_15.TextSize = 14.000
+TextLabel_15.TextTransparency = 0.270
+TextLabel_15.TextWrapped = true
+
+Frame_17.Parent = Premium
+Frame_17.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_17.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_17.Position = UDim2.new(0.200320512, 0, 0.118466802, 0)
+Frame_17.Size = UDim2.new(0, 0, 0, 331)
+
+TextButton_14.Parent = Premium
+TextButton_14.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextButton_14.Position = UDim2.new(0.463547766, 0, 0.913103163, 0)
+TextButton_14.Size = UDim2.new(0, 119, 0, 28)
+TextButton_14.Font = Enum.Font.SourceSansItalic
+TextButton_14.Text = "Next Page"
+TextButton_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_14.TextScaled = true
+TextButton_14.TextSize = 14.000
+TextButton_14.TextWrapped = true
+
+UICorner_29.Parent = TextButton_14
+
+Frame_18.Parent = TextButton_14
+Frame_18.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_18.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_18.Position = UDim2.new(-0.00339078507, 0, 1, 0)
+Frame_18.Size = UDim2.new(0, 119, 0, 8)
+
+UICorner_30.Parent = Frame_18
+
+TextLabel_16.Parent = Premium
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.Position = UDim2.new(-0.00144488993, 0, 0.116012573, 0)
+TextLabel_16.Size = UDim2.new(0, 125, 0, 68)
+TextLabel_16.Font = Enum.Font.GothamBold
+TextLabel_16.Text = "Made By Capo#0152 Or Random Exploits On Youtube"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextScaled = true
+TextLabel_16.TextSize = 14.000
+TextLabel_16.TextTransparency = 0.270
+TextLabel_16.TextWrapped = true
+
+ImageLabel.Parent = Premium
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0.00641025603, 0, 0.375869066, 0)
+ImageLabel.Size = UDim2.new(0, 115, 0, 115)
+ImageLabel.Image = "rbxassetid://31613125"
+
+TextButton_15.Parent = Premium
+TextButton_15.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextButton_15.Position = UDim2.new(0.927277982, 0, 0.003528676, 0)
+TextButton_15.Size = UDim2.new(0, 45, 0, 35)
+TextButton_15.Font = Enum.Font.GothamBold
+TextButton_15.Text = "X"
+TextButton_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_15.TextScaled = true
+TextButton_15.TextSize = 14.000
+TextButton_15.TextStrokeTransparency = 1.010
+TextButton_15.TextWrapped = true
+
+UICorner_31.Parent = TextButton_15
+
+TextButton_16.Parent = Premium
+TextButton_16.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextButton_16.Position = UDim2.new(0.0593185425, 0, 0.759629607, 0)
+TextButton_16.Size = UDim2.new(0, 49, 0, 50)
+TextButton_16.Font = Enum.Font.SourceSansItalic
+TextButton_16.Text = "Go To Ocean's Tavern"
+TextButton_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_16.TextScaled = true
+TextButton_16.TextSize = 14.000
+TextButton_16.TextWrapped = true
+
+UICorner_32.Parent = TextButton_16
+
+Frame_19.Parent = TextButton_16
+Frame_19.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_19.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_19.Position = UDim2.new(-0.00339056528, 0, 1, 0)
+Frame_19.Size = UDim2.new(0, 49, 0, 8)
+
+UICorner_33.Parent = Frame_19
+
+Premium2.Name = "Premium2"
+Premium2.Parent = ScreenGui
+Premium2.Active = true
+Premium2.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+Premium2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Premium2.BorderSizePixel = 0
+Premium2.Position = UDim2.new(0.305705488, 0, 0.243740797, 0)
+Premium2.Size = UDim2.new(0, 624, 0, 376)
+Premium2.Visible = false
+
+UICorner_34.CornerRadius = UDim.new(0, 4)
+UICorner_34.Parent = Premium2
+
+Frame_20.Parent = Premium2
+Frame_20.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_20.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_20.Position = UDim2.new(0, 0, 0.0998497829, 0)
+Frame_20.Size = UDim2.new(0, 624, 0, 7)
+
+TextLabel_17.Parent = Premium2
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.Size = UDim2.new(0, 624, 0, 38)
+TextLabel_17.Font = Enum.Font.GothamBold
+TextLabel_17.Text = "Magic Ware - Premium"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextScaled = true
+TextLabel_17.TextSize = 14.000
+TextLabel_17.TextWrapped = true
+
+TextButton_17.Parent = Premium2
+TextButton_17.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextButton_17.Position = UDim2.new(0.91445744, 0, 0.139166981, 0)
+TextButton_17.Size = UDim2.new(0, 45, 0, 311)
+TextButton_17.Font = Enum.Font.SourceSansItalic
+TextButton_17.Text = "If It Doesn't Work Spam The Buttons, Make Sure You Typed The Spell Listed On The Bottom."
+TextButton_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_17.TextScaled = true
+TextButton_17.TextSize = 14.000
+TextButton_17.TextStrokeTransparency = 1.010
+TextButton_17.TextWrapped = true
+
+UICorner_35.Parent = TextButton_17
+
+Frame_21.Parent = TextButton_17
+Frame_21.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_21.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_21.Position = UDim2.new(-0.00339084212, 0, 1, 0)
+Frame_21.Size = UDim2.new(0, 45, 0, 8)
+
+UICorner_36.Parent = Frame_21
+
+TextButton_18.Parent = Premium2
+TextButton_18.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextButton_18.Position = UDim2.new(0.242393881, 0, 0.139166996, 0)
+TextButton_18.Size = UDim2.new(0, 200, 0, 50)
+TextButton_18.Font = Enum.Font.SourceSansItalic
+TextButton_18.Text = "Mini All"
+TextButton_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_18.TextScaled = true
+TextButton_18.TextSize = 14.000
+TextButton_18.TextWrapped = true
+
+UICorner_37.Parent = TextButton_18
+
+Frame_22.Parent = TextButton_18
+Frame_22.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_22.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_22.Position = UDim2.new(-0.00339080812, 0, 1, 0)
+Frame_22.Size = UDim2.new(0, 200, 0, 8)
+
+UICorner_38.Parent = Frame_22
+
+TextLabel_18.Parent = Premium2
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.Position = UDim2.new(0.270990998, 0, 0.292784363, 0)
+TextLabel_18.Size = UDim2.new(0, 164, 0, 27)
+TextLabel_18.Font = Enum.Font.GothamBold
+TextLabel_18.Text = "Type \"Diminuendo\" And Shoot On The Ground Before Clicking."
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextScaled = true
+TextLabel_18.TextSize = 14.000
+TextLabel_18.TextTransparency = 0.270
+TextLabel_18.TextWrapped = true
+
+Frame_23.Parent = Premium2
+Frame_23.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_23.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_23.Position = UDim2.new(0.200320512, 0, 0.118466802, 0)
+Frame_23.Size = UDim2.new(0, 0, 0, 331)
+
+TextButton_19.Parent = Premium2
+TextButton_19.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextButton_19.Position = UDim2.new(0.463999987, 0, 0.912999988, 0)
+TextButton_19.Size = UDim2.new(0, 119, 0, 28)
+TextButton_19.Font = Enum.Font.SourceSansItalic
+TextButton_19.Text = "Back"
+TextButton_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_19.TextScaled = true
+TextButton_19.TextSize = 14.000
+TextButton_19.TextWrapped = true
+
+UICorner_39.Parent = TextButton_19
+
+Frame_24.Parent = TextButton_19
+Frame_24.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_24.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_24.Position = UDim2.new(-0.00339078507, 0, 1, 0)
+Frame_24.Size = UDim2.new(0, 119, 0, 8)
+
+UICorner_40.Parent = Frame_24
+
+TextLabel_19.Parent = Premium2
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.Position = UDim2.new(-0.00144488993, 0, 0.116012573, 0)
+TextLabel_19.Size = UDim2.new(0, 125, 0, 68)
+TextLabel_19.Font = Enum.Font.GothamBold
+TextLabel_19.Text = "Made By Capo#0152 Or Random Exploits On Youtube"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextScaled = true
+TextLabel_19.TextSize = 14.000
+TextLabel_19.TextTransparency = 0.270
+TextLabel_19.TextWrapped = true
+
+ImageLabel_2.Parent = Premium2
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.Position = UDim2.new(0.00641025603, 0, 0.375869066, 0)
+ImageLabel_2.Size = UDim2.new(0, 115, 0, 115)
+ImageLabel_2.Image = "rbxassetid://31613125"
+
+TextButton_20.Parent = Premium2
+TextButton_20.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextButton_20.Position = UDim2.new(0.927277982, 0, 0.003528676, 0)
+TextButton_20.Size = UDim2.new(0, 45, 0, 35)
+TextButton_20.Font = Enum.Font.GothamBold
+TextButton_20.Text = "X"
+TextButton_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_20.TextScaled = true
+TextButton_20.TextSize = 14.000
+TextButton_20.TextStrokeTransparency = 1.010
+TextButton_20.TextWrapped = true
+
+UICorner_41.Parent = TextButton_20
+
+TextButton_21.Parent = Premium2
+TextButton_21.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextButton_21.Position = UDim2.new(0.242393911, 0, 0.750869095, 0)
+TextButton_21.Size = UDim2.new(0, 200, 0, 50)
+TextButton_21.Font = Enum.Font.SourceSansItalic
+TextButton_21.Text = "Auto Clash"
+TextButton_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_21.TextScaled = true
+TextButton_21.TextSize = 14.000
+TextButton_21.TextWrapped = true
+
+UICorner_42.Parent = TextButton_21
+
+Frame_25.Parent = TextButton_21
+Frame_25.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_25.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_25.Position = UDim2.new(-0.00339080812, 0, 1, 0)
+Frame_25.Size = UDim2.new(0, 200, 0, 8)
+
+UICorner_43.Parent = Frame_25
+
+TextButton_22.Parent = Premium2
+TextButton_22.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextButton_22.Position = UDim2.new(0.242393881, 0, 0.439698905, 0)
+TextButton_22.Size = UDim2.new(0, 200, 0, 50)
+TextButton_22.Font = Enum.Font.SourceSansItalic
+TextButton_22.Text = "Ice All"
+TextButton_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_22.TextScaled = true
+TextButton_22.TextSize = 14.000
+TextButton_22.TextWrapped = true
+
+UICorner_44.Parent = TextButton_22
+
+Frame_26.Parent = TextButton_22
+Frame_26.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_26.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_26.Position = UDim2.new(-0.00339080812, 0, 1, 0)
+Frame_26.Size = UDim2.new(0, 200, 0, 8)
+
+UICorner_45.Parent = Frame_26
+
+TextLabel_20.Parent = Premium2
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.Position = UDim2.new(0.272593558, 0, 0.593316257, 0)
+TextLabel_20.Size = UDim2.new(0, 164, 0, 27)
+TextLabel_20.Font = Enum.Font.GothamBold
+TextLabel_20.Text = "Type \"Glacius\" And Shoot On The Ground Before Clicking."
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextScaled = true
+TextLabel_20.TextSize = 14.000
+TextLabel_20.TextTransparency = 0.270
+TextLabel_20.TextWrapped = true
+
+TextButton_23.Parent = Premium2
+TextButton_23.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextButton_23.Position = UDim2.new(0.580534875, 0, 0.139166996, 0)
+TextButton_23.Size = UDim2.new(0, 200, 0, 50)
+TextButton_23.Font = Enum.Font.SourceSansItalic
+TextButton_23.Text = "Delete All"
+TextButton_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_23.TextScaled = true
+TextButton_23.TextSize = 14.000
+TextButton_23.TextWrapped = true
+
+UICorner_46.Parent = TextButton_23
+
+Frame_27.Parent = TextButton_23
+Frame_27.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_27.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_27.Position = UDim2.new(-0.00339080812, 0, 1, 0)
+Frame_27.Size = UDim2.new(0, 200, 0, 8)
+
+UICorner_47.Parent = Frame_27
+
+TextLabel_21.Parent = Premium2
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.Position = UDim2.new(0.607529461, 0, 0.292784363, 0)
+TextLabel_21.Size = UDim2.new(0, 164, 0, 27)
+TextLabel_21.Font = Enum.Font.GothamBold
+TextLabel_21.Text = "Type \"Deletrius\" And Shoot On The Ground Before Clicking."
+TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.TextScaled = true
+TextLabel_21.TextSize = 14.000
+TextLabel_21.TextTransparency = 0.270
+TextLabel_21.TextWrapped = true
+
+TextButton_24.Parent = Premium2
+TextButton_24.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextButton_24.Position = UDim2.new(0.580534875, 0, 0.439698935, 0)
+TextButton_24.Size = UDim2.new(0, 200, 0, 50)
+TextButton_24.Font = Enum.Font.SourceSansItalic
+TextButton_24.Text = "Mute All"
+TextButton_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_24.TextScaled = true
+TextButton_24.TextSize = 14.000
+TextButton_24.TextWrapped = true
+
+UICorner_48.Parent = TextButton_24
+
+Frame_28.Parent = TextButton_24
+Frame_28.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_28.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_28.Position = UDim2.new(-0.00339080812, 0, 1, 0)
+Frame_28.Size = UDim2.new(0, 200, 0, 8)
+
+UICorner_49.Parent = Frame_28
+
+TextLabel_22.Parent = Premium2
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.BackgroundTransparency = 1.000
+TextLabel_22.Position = UDim2.new(0.607529461, 0, 0.593316317, 0)
+TextLabel_22.Size = UDim2.new(0, 164, 0, 27)
+TextLabel_22.Font = Enum.Font.GothamBold
+TextLabel_22.Text = "Type \"Silencio\" And Shoot On The Ground Before Clicking."
+TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.TextScaled = true
+TextLabel_22.TextSize = 14.000
+TextLabel_22.TextTransparency = 0.270
+TextLabel_22.TextWrapped = true
+
+TextButton_25.Parent = Premium2
+TextButton_25.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextButton_25.Position = UDim2.new(0.580534875, 0, 0.679060638, 0)
+TextButton_25.Size = UDim2.new(0, 200, 0, 50)
+TextButton_25.Font = Enum.Font.SourceSansItalic
+TextButton_25.Text = "Blind All"
+TextButton_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_25.TextScaled = true
+TextButton_25.TextSize = 14.000
+TextButton_25.TextWrapped = true
+
+UICorner_50.Parent = TextButton_25
+
+Frame_29.Parent = TextButton_25
+Frame_29.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_29.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_29.Position = UDim2.new(-0.00339080812, 0, 1, 0)
+Frame_29.Size = UDim2.new(0, 200, 0, 8)
+
+UICorner_51.Parent = Frame_29
+
+TextLabel_23.Parent = Premium2
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.BackgroundTransparency = 1.000
+TextLabel_23.Position = UDim2.new(0.607529461, 0, 0.835337639, 0)
+TextLabel_23.Size = UDim2.new(0, 164, 0, 21)
+TextLabel_23.Font = Enum.Font.GothamBold
+TextLabel_23.Text = "Type \"Obscuro\" And Shoot On The Ground Before Clicking."
+TextLabel_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.TextScaled = true
+TextLabel_23.TextSize = 14.000
+TextLabel_23.TextTransparency = 0.270
+TextLabel_23.TextWrapped = true
+
+OpenButton1.Name = "OpenButton1"
+OpenButton1.Parent = ScreenGui
+OpenButton1.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+OpenButton1.Position = UDim2.new(-2.20705388e-05, 0, 0.732686877, 0)
+OpenButton1.Size = UDim2.new(0, 159, 0, 50)
+OpenButton1.Visible = false
+OpenButton1.Font = Enum.Font.SourceSansItalic
+OpenButton1.Text = "Open GUI"
+OpenButton1.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenButton1.TextScaled = true
+OpenButton1.TextSize = 14.000
+OpenButton1.TextWrapped = true
+
+UICorner_52.Parent = OpenButton1
+
+Frame_30.Parent = OpenButton1
+Frame_30.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_30.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_30.Position = UDim2.new(-0.00339080999, 0, 1, 0)
+Frame_30.Size = UDim2.new(0, 159, 0, 8)
+
+UICorner_53.Parent = Frame_30
+
+OpenButton2.Name = "OpenButton2"
+OpenButton2.Parent = ScreenGui
+OpenButton2.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+OpenButton2.Position = UDim2.new(-2.20705388e-05, 0, 0.732686877, 0)
+OpenButton2.Size = UDim2.new(0, 159, 0, 50)
+OpenButton2.Visible = false
+OpenButton2.Font = Enum.Font.SourceSansItalic
+OpenButton2.Text = "Open GUI"
+OpenButton2.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenButton2.TextScaled = true
+OpenButton2.TextSize = 14.000
+OpenButton2.TextWrapped = true
+
+UICorner_54.Parent = OpenButton2
+
+Frame_31.Parent = OpenButton2
+Frame_31.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_31.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_31.Position = UDim2.new(-0.00339080999, 0, 1, 0)
+Frame_31.Size = UDim2.new(0, 159, 0, 8)
+
+UICorner_55.Parent = Frame_31
+
+Activate.Name = "Activate"
+Activate.Parent = ScreenGui
+Activate.Active = true
+Activate.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+Activate.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Activate.BorderSizePixel = 0
+Activate.Position = UDim2.new(0.415959895, 0, 0.243740767, 0)
+Activate.Size = UDim2.new(0, 356, 0, 225)
+Activate.Visible = false
+
+UICorner_56.CornerRadius = UDim.new(0, 4)
+UICorner_56.Parent = Activate
+
+Frame_32.Parent = Activate
+Frame_32.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_32.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_32.Position = UDim2.new(0, 0, 0.166339129, 0)
+Frame_32.Size = UDim2.new(0, 356, 0, 6)
+
+TextLabel_24.Parent = Activate
+TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.BackgroundTransparency = 1.000
+TextLabel_24.Size = UDim2.new(0, 356, 0, 38)
+TextLabel_24.Font = Enum.Font.GothamBold
+TextLabel_24.Text = "Magic Ware Activation"
+TextLabel_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.TextScaled = true
+TextLabel_24.TextSize = 14.000
+TextLabel_24.TextWrapped = true
+
+TextButton2.Name = "TextButton2"
+TextButton2.Parent = Activate
+TextButton2.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextButton2.Position = UDim2.new(0.211562067, 0, 0.551899195, 0)
+TextButton2.Size = UDim2.new(0, 200, 0, 50)
+TextButton2.Font = Enum.Font.SourceSansItalic
+TextButton2.Text = "Activate"
+TextButton2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton2.TextScaled = true
+TextButton2.TextSize = 14.000
+TextButton2.TextWrapped = true
+
+UICorner_57.Parent = TextButton2
+
+Frame_33.Parent = TextButton2
+Frame_33.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_33.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_33.Position = UDim2.new(-0.00339080812, 0, 1, 0)
+Frame_33.Size = UDim2.new(0, 200, 0, 8)
+
+UICorner_58.Parent = Frame_33
+
+TextBox.Parent = Activate
+TextBox.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.21348314, 0, 0.244444445, 0)
+TextBox.Size = UDim2.new(0, 200, 0, 50)
+TextBox.ClearTextOnFocus = false
+TextBox.Font = Enum.Font.SourceSans
+TextBox.PlaceholderText = "Enter Activation Code Here"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextSize = 14.000
+
+UICorner_59.Parent = TextBox
+
+Frame_34.Parent = TextBox
+Frame_34.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_34.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_34.Position = UDim2.new(-0.00339080812, 0, 1, 0)
+Frame_34.Size = UDim2.new(0, 200, 0, 8)
+
+UICorner_60.Parent = Frame_34
+
+TextButton_26.Parent = Activate
+TextButton_26.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextButton_26.Position = UDim2.new(0.894146323, 0, 0.840788007, 0)
+TextButton_26.Size = UDim2.new(0, 36, 0, 28)
+TextButton_26.Font = Enum.Font.GothamBold
+TextButton_26.Text = "X"
+TextButton_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_26.TextScaled = true
+TextButton_26.TextSize = 14.000
+TextButton_26.TextWrapped = true
+
+UICorner_61.Parent = TextButton_26
+
+Frame_35.Parent = TextButton_26
+Frame_35.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_35.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_35.Position = UDim2.new(-0.00339084212, 0, 1, 0)
+Frame_35.Size = UDim2.new(0, 36, 0, 8)
+
+UICorner_62.Parent = Frame_35
+
+-- Scripts:
+
+local function IVUGJ_fake_script() -- TextLabel.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0)do
+		script.Parent.TextColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(IVUGJ_fake_script)()
+local function FXCEWC_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local enabled = false
+	wait(1)
+	script.Parent.Text = "Continue(4)"
+	wait(1)
+	script.Parent.Text = "Continue(3)"
+	wait(1)
+	script.Parent.Text = "Continue(2)"
+	wait(1)
+	script.Parent.Text = "Continue(1)"
+	wait(1)
+	script.Parent.Text = "Continue"
+	script.Parent.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+	enabled = true
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if enabled == true then
+		script.Parent.Parent.Visible = false
+			script.Parent.Parent.Parent.Main.Visible = true
+		else
+			return end
+	end)
+end
+coroutine.wrap(FXCEWC_fake_script)()
+local function OFTUK_fake_script() -- TextLabel_4.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_4)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0)do
+		script.Parent.TextColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(OFTUK_fake_script)()
+local function XAPN_fake_script() -- TextLabel_6.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_6)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0)do
+		script.Parent.TextColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(XAPN_fake_script)()
+local function MNGVCID_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		while true do
+			wait(0.2)
+			local players = game.Players:GetPlayers()
+			local daw = players[math.random(1,#players)]
+			-- Script generated by SimpleSpy - credits to exx#9394
+			if daw.Character.Humanoid.Health >= 0 then
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482230,
+						["actor"] = daw.Character,
+						["spellName"] = "avada kedavra"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "avada kedavra"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 21.665488686356,
+						["actor"] = daw.Character,
+						["spellName"] = "avada kedavra"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 71.00383142283,
+						["actor"] = daw.Character,
+						["spellName"] = "avada kedavra"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "avada kedavra"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 12.868257143978,
+						["actor"] = daw.Character,
+						["spellName"] = "avada kedavra"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482230,
+						["actor"] = daw.Character,
+						["spellName"] = "avada kedavra"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "avada kedavra"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 21.665488686356,
+						["actor"] = daw.Character,
+						["spellName"] = "avada kedavra"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 71.00383142283,
+						["actor"] = daw.Character,
+						["spellName"] = "avada kedavra"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "avada kedavra"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 12.868257143978,
+						["actor"] = daw.Character,
+						["spellName"] = "avada kedavra"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+	
+			else
+				print("sheesh")
+			end
+		end
+	end)
+end
+coroutine.wrap(MNGVCID_fake_script)()
+local function BOMSTC_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+	end)
+end
+coroutine.wrap(BOMSTC_fake_script)()
+local function YFUVRFH_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Info.Visible = true
+	end)
+end
+coroutine.wrap(YFUVRFH_fake_script)()
+local function MEQQW_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Main)
+
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(MEQQW_fake_script)()
+local function GINFNQN_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	
+end
+coroutine.wrap(GINFNQN_fake_script)()
+local function GMGD_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Activate.Visible = true
+	end)
+end
+coroutine.wrap(GMGD_fake_script)()
+local function BWAUM_fake_script() -- TextLabel_8.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_8)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0)do
+		script.Parent.TextColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(BWAUM_fake_script)()
+local function JJSIVE_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Main.Visible = true
+	end)
+end
+coroutine.wrap(JJSIVE_fake_script)()
+local function QXDM_fake_script() -- TextLabel_10.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_10)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0)do
+		script.Parent.TextColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(QXDM_fake_script)()
+local function FUJGQY_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		while true do
+			wait(0.2)
+			local players = game.Players:GetPlayers()
+			local daw = players[math.random(1,#players)]
+			-- Script generated by SimpleSpy - credits to exx#9394
+			if daw.Character.Humanoid.Health >= 0 then
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482230,
+						["actor"] = daw.Character,
+						["spellName"] = "avada kedavra"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "avada kedavra"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 21.665488686356,
+						["actor"] = daw.Character,
+						["spellName"] = "avada kedavra"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 71.00383142283,
+						["actor"] = daw.Character,
+						["spellName"] = "avada kedavra"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "avada kedavra"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 12.868257143978,
+						["actor"] = daw.Character,
+						["spellName"] = "avada kedavra"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482230,
+						["actor"] = daw.Character,
+						["spellName"] = "avada kedavra"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "avada kedavra"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 21.665488686356,
+						["actor"] = daw.Character,
+						["spellName"] = "avada kedavra"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 71.00383142283,
+						["actor"] = daw.Character,
+						["spellName"] = "avada kedavra"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "avada kedavra"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 12.868257143978,
+						["actor"] = daw.Character,
+						["spellName"] = "avada kedavra"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+	
+			else
+				print("sheesh")
+			end
+		end
+	end)
+end
+coroutine.wrap(FUJGQY_fake_script)()
+local function MBNH_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+	end)
+end
+coroutine.wrap(MBNH_fake_script)()
+local function DPCVG_fake_script() -- TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_9)
+
+	
+end
+coroutine.wrap(DPCVG_fake_script)()
+local function YLMWBK_fake_script() -- TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_9)
+
+	
+end
+coroutine.wrap(YLMWBK_fake_script)()
+local function PCHKJEB_fake_script() -- TextButton_10.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_10)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+	
+		while true do
+			wait(0.2)
+			local players = game.Players:GetPlayers()
+			local daw = players[math.random(1,#players)]
+			-- Script generated by SimpleSpy - credits to exx#9394
+			if daw.Character.Humanoid.Health >= 0 then
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482230,
+						["actor"] = daw.Character,
+						["spellName"] = "incarcerous"
+					}
+				}
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "incarcerous"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 21.665488686356,
+						["actor"] = daw.Character,
+						["spellName"] = "incarcerous"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 71.00383142283,
+						["actor"] = daw.Character,
+						["spellName"] = "incarcerous"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "incarcerous"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 12.868257143978,
+						["actor"] = daw.Character,
+						["spellName"] = "incarcerous"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482230,
+						["actor"] = daw.Character,
+						["spellName"] = "incarcerous"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "incarcerous"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 21.665488686356,
+						["actor"] = daw.Character,
+						["spellName"] = "incarcerous"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 71.00383142283,
+						["actor"] = daw.Character,
+						["spellName"] = "incarcerous"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "incarcerous"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 12.868257143978,
+						["actor"] = daw.Character,
+						["spellName"] = "incarcerous"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+	
+			else
+				print("sheesh")
+			end
+		end
+	end)
+end
+coroutine.wrap(PCHKJEB_fake_script)()
+local function BEZSBEI_fake_script() -- TextButton_11.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_11)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		while true do
+			wait(0.2)
+			local players = game.Players:GetPlayers()
+			local daw = players[math.random(1,#players)]
+			-- Script generated by SimpleSpy - credits to exx#9394
+			if daw.Character.Humanoid.Health >= 0 then
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482230,
+						["actor"] = daw.Character,
+						["spellName"] = "duro"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "duro"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 21.665488686356,
+						["actor"] = daw.Character,
+						["spellName"] = "duro"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 71.00383142283,
+						["actor"] = daw.Character,
+						["spellName"] = "duro"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "duro"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 12.868257143978,
+						["actor"] = daw.Character,
+						["spellName"] = "duro"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482230,
+						["actor"] = daw.Character,
+						["spellName"] = "duro"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "duro"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 21.665488686356,
+						["actor"] = daw.Character,
+						["spellName"] = "duro"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 71.00383142283,
+						["actor"] = daw.Character,
+						["spellName"] = "duro"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "duro"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 12.868257143978,
+						["actor"] = daw.Character,
+						["spellName"] = "duro"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+	
+			else
+				print("sheesh")
+			end
+		end
+		
+	end)
+end
+coroutine.wrap(BEZSBEI_fake_script)()
+local function BUSEGP_fake_script() -- TextButton_12.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_12)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+	
+		while true do
+			wait(0.2)
+			local players = game.Players:GetPlayers()
+			local daw = players[math.random(1,#players)]
+			-- Script generated by SimpleSpy - credits to exx#9394
+			if daw.Character.Humanoid.Health >= 0 then
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482230,
+						["actor"] = daw.Character,
+						["spellName"] = "ebublio"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "ebublio"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 21.665488686356,
+						["actor"] = daw.Character,
+						["spellName"] = "ebublio"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 71.00383142283,
+						["actor"] = daw.Character,
+						["spellName"] = "ebublio"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "ebublio"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 12.868257143978,
+						["actor"] = daw.Character,
+						["spellName"] = "ebublio"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482230,
+						["actor"] = daw.Character,
+						["spellName"] = "ebublio"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "ebublio"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 21.665488686356,
+						["actor"] = daw.Character,
+						["spellName"] = "ebublio"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 71.00383142283,
+						["actor"] = daw.Character,
+						["spellName"] = "ebublio"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "ebublio"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 12.868257143978,
+						["actor"] = daw.Character,
+						["spellName"] = "ebublio"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+	
+			else
+				print("sheesh")
+			end
+		end
+		
+	end)
+end
+coroutine.wrap(BUSEGP_fake_script)()
+local function FYGH_fake_script() -- TextButton_13.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_13)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		while true do
+			wait(0.2)
+			local players = game.Players:GetPlayers()
+			local daw = players[math.random(1,#players)]
+			-- Script generated by SimpleSpy - credits to exx#9394
+			if daw.Character.Humanoid.Health >= 0 then
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482230,
+						["actor"] = daw.Character,
+						["spellName"] = "engorgio skullus"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "engorgio skullus"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 21.665488686356,
+						["actor"] = daw.Character,
+						["spellName"] = "engorgio skullus"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 71.00383142283,
+						["actor"] = daw.Character,
+						["spellName"] = "engorgio skullus"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "engorgio skullus"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 12.868257143978,
+						["actor"] = daw.Character,
+						["spellName"] = "engorgio skullus"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482230,
+						["actor"] = daw.Character,
+						["spellName"] = "engorgio skullus"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "engorgio skullus"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 21.665488686356,
+						["actor"] = daw.Character,
+						["spellName"] = "engorgio skullus"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 71.00383142283,
+						["actor"] = daw.Character,
+						["spellName"] = "engorgio skullus"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "engorgio skullus"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 12.868257143978,
+						["actor"] = daw.Character,
+						["spellName"] = "engorgio skullus"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+	
+			else
+				print("sheesh")
+			end
+		end
+	end)
+end
+coroutine.wrap(FYGH_fake_script)()
+local function IVDJV_fake_script() -- TextButton_14.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_14)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Premium2.Visible = true
+		script.Parent.Parent.Position = script.Parent.Parent.Parent.Premium2.Position
+	end)
+end
+coroutine.wrap(IVDJV_fake_script)()
+local function YOAO_fake_script() -- Premium.LocalScript 
+	local script = Instance.new('LocalScript', Premium)
+
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(YOAO_fake_script)()
+local function UTAYBGH_fake_script() -- TextButton_15.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_15)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.OpenButton1.Visible = true
+	end)
+end
+coroutine.wrap(UTAYBGH_fake_script)()
+local function JIUIOPU_fake_script() -- TextButton_15.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_15)
+
+	
+end
+coroutine.wrap(JIUIOPU_fake_script)()
+local function CJCZP_fake_script() -- TextButton_16.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_16)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Script generated by SimpleSpy - credits to exx#9394
+	
+		local args = {
+			[1] = {
+				["distance"] = 12.868257143978,
+				["spellName"] = "appa",
+				["mousePos"] = Vector3.new(-538.06695556641, 339.14331054688, 1210.2255859375)
+			}
+		}
+	
+		game:GetService("InsertService").Events.uniqueSpell:FireServer(unpack(args))
+	
+	end)
+end
+coroutine.wrap(CJCZP_fake_script)()
+local function MWJE_fake_script() -- TextLabel_17.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_17)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0)do
+		script.Parent.TextColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(MWJE_fake_script)()
+local function EFPUCEK_fake_script() -- TextButton_18.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_18)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		while true do
+			wait(0.2)
+			local players = game.Players:GetPlayers()
+			local daw = players[math.random(1,#players)]
+			-- Script generated by SimpleSpy - credits to exx#9394
+			if daw.Character.Humanoid.Health >= 0 then
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482230,
+						["actor"] = daw.Character,
+						["spellName"] = "diminuendo"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "diminuendo"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 21.665488686356,
+						["actor"] = daw.Character,
+						["spellName"] = "diminuendo"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 71.00383142283,
+						["actor"] = daw.Character,
+						["spellName"] = "diminuendo"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "diminuendo"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 12.868257143978,
+						["actor"] = daw.Character,
+						["spellName"] = "diminuendo"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482230,
+						["actor"] = daw.Character,
+						["spellName"] = "diminuendo"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "diminuendo"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 21.665488686356,
+						["actor"] = daw.Character,
+						["spellName"] = "diminuendo"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 71.00383142283,
+						["actor"] = daw.Character,
+						["spellName"] = "diminuendo"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "diminuendo"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 12.868257143978,
+						["actor"] = daw.Character,
+						["spellName"] = "diminuendo"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+	
+			else
+				print("sheesh")
+			end
+		end
+		
+	end)
+end
+coroutine.wrap(EFPUCEK_fake_script)()
+local function FQVJQC_fake_script() -- TextButton_19.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_19)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Premium.Visible = true
+		script.Parent.Parent.Parent.Premium.Position = script.Parent.Parent.Position
+	end)
+end
+coroutine.wrap(FQVJQC_fake_script)()
+local function UARM_fake_script() -- Premium2.LocalScript 
+	local script = Instance.new('LocalScript', Premium2)
+
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(UARM_fake_script)()
+local function DHVA_fake_script() -- TextButton_20.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_20)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.OpenButton2.Visible = true
+	end)
+end
+coroutine.wrap(DHVA_fake_script)()
+local function AVUUTH_fake_script() -- TextButton_20.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_20)
+
+	
+end
+coroutine.wrap(AVUUTH_fake_script)()
+local function XWBYK_fake_script() -- TextButton_21.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_21)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		while true do
+	    wait(0)
+		local args = {
+			[1] = {
+				["distance"] = 71.00383142283
+			}
+		}
+	
+		game:GetService("InsertService").Events.advanceClash:FireServer(unpack(args))
+	end
+	end)
+end
+coroutine.wrap(XWBYK_fake_script)()
+local function XQCSD_fake_script() -- TextButton_22.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_22)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		while true do
+			wait(0.2)
+			local players = game.Players:GetPlayers()
+			local daw = players[math.random(1,#players)]
+			-- Script generated by SimpleSpy - credits to exx#9394
+			if daw.Character.Humanoid.Health >= 0 then
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482230,
+						["actor"] = daw.Character,
+						["spellName"] = "glacius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "glacius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 21.665488686356,
+						["actor"] = daw.Character,
+						["spellName"] = "glacius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 71.00383142283,
+						["actor"] = daw.Character,
+						["spellName"] = "glacius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "glacius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 12.868257143978,
+						["actor"] = daw.Character,
+						["spellName"] = "glacius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482230,
+						["actor"] = daw.Character,
+						["spellName"] = "glacius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "glacius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 21.665488686356,
+						["actor"] = daw.Character,
+						["spellName"] = "glacius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 71.00383142283,
+						["actor"] = daw.Character,
+						["spellName"] = "glacius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "glacius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 12.868257143978,
+						["actor"] = daw.Character,
+						["spellName"] = "glacius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+	
+			else
+				print("sheesh")
+			end
+		end
+		
+	end)
+end
+coroutine.wrap(XQCSD_fake_script)()
+local function NQOVQWT_fake_script() -- TextButton_23.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_23)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		while true do
+			wait(0.2)
+			local players = game.Players:GetPlayers()
+			local daw = players[math.random(1,#players)]
+			-- Script generated by SimpleSpy - credits to exx#9394
+			if daw.Character.Humanoid.Health >= 0 then
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482230,
+						["actor"] = daw.Character,
+						["spellName"] = "deletrius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "deletrius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 21.665488686356,
+						["actor"] = daw.Character,
+						["spellName"] = "deletrius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 71.00383142283,
+						["actor"] = daw.Character,
+						["spellName"] = "deletrius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "deletrius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 12.868257143978,
+						["actor"] = daw.Character,
+						["spellName"] = "deletrius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482230,
+						["actor"] = daw.Character,
+						["spellName"] = "deletrius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "deletrius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 21.665488686356,
+						["actor"] = daw.Character,
+						["spellName"] = "deletrius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 71.00383142283,
+						["actor"] = daw.Character,
+						["spellName"] = "deletrius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "deletrius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 12.868257143978,
+						["actor"] = daw.Character,
+						["spellName"] = "deletrius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+	
+			else
+				print("sheesh")
+			end
+		end
+		
+	end)
+end
+coroutine.wrap(NQOVQWT_fake_script)()
+local function GYOQKLT_fake_script() -- TextButton_24.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_24)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		while true do
+			wait(0.2)
+			local players = game.Players:GetPlayers()
+			local daw = players[math.random(1,#players)]
+			-- Script generated by SimpleSpy - credits to exx#9394
+			if daw.Character.Humanoid.Health >= 0 then
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482230,
+						["actor"] = daw.Character,
+						["spellName"] = "silencio"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "silencio"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 21.665488686356,
+						["actor"] = daw.Character,
+						["spellName"] = "silencio"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 71.00383142283,
+						["actor"] = daw.Character,
+						["spellName"] = "silencio"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "silencio"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 12.868257143978,
+						["actor"] = daw.Character,
+						["spellName"] = "silencio"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482230,
+						["actor"] = daw.Character,
+						["spellName"] = "silencio"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "silencio"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 21.665488686356,
+						["actor"] = daw.Character,
+						["spellName"] = "silencio"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 71.00383142283,
+						["actor"] = daw.Character,
+						["spellName"] = "silencio"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "silencio"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 12.868257143978,
+						["actor"] = daw.Character,
+						["spellName"] = "silencio"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+	
+			else
+				print("sheesh")
+			end
+		end
+		
+	end)
+end
+coroutine.wrap(GYOQKLT_fake_script)()
+local function HFKY_fake_script() -- TextButton_25.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_25)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		while true do
+			wait(0.2)
+			local players = game.Players:GetPlayers()
+			local daw = players[math.random(1,#players)]
+			-- Script generated by SimpleSpy - credits to exx#9394
+			if daw.Character.Humanoid.Health >= 0 then
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482230,
+						["actor"] = daw.Character,
+						["spellName"] = "obscuro"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "obscuro"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 21.665488686356,
+						["actor"] = daw.Character,
+						["spellName"] = "obscuro"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 71.00383142283,
+						["actor"] = daw.Character,
+						["spellName"] = "obscuro"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "obscuro"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 12.868257143978,
+						["actor"] = daw.Character,
+						["spellName"] = "obscuro"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482230,
+						["actor"] = daw.Character,
+						["spellName"] = "obscuro"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "obscuro"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 21.665488686356,
+						["actor"] = daw.Character,
+						["spellName"] = "obscuro"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 71.00383142283,
+						["actor"] = daw.Character,
+						["spellName"] = "obscuro"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "obscuro"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 12.868257143978,
+						["actor"] = daw.Character,
+						["spellName"] = "obscuro"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+	
+			else
+				print("sheesh")
+			end
+		end
+		
+	end)
+end
+coroutine.wrap(HFKY_fake_script)()
+local function JNUHF_fake_script() -- OpenButton1.LocalScript 
+	local script = Instance.new('LocalScript', OpenButton1)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Visible = false
+		script.Parent.Parent.Premium.Visible = true
+	end)
+end
+coroutine.wrap(JNUHF_fake_script)()
+local function LTCX_fake_script() -- OpenButton2.LocalScript 
+	local script = Instance.new('LocalScript', OpenButton2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Visible = false
+		script.Parent.Parent.Premium2.Visible = true
+	end)
+end
+coroutine.wrap(LTCX_fake_script)()
+local function TSPG_fake_script() -- TextLabel_24.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_24)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0)do
+		script.Parent.TextColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(TSPG_fake_script)()
+local function SUPB_fake_script() -- TextButton2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.TextBox.Text == "PremiumUser1" or script.Parent.Parent.TextBox.Text == "PremiumUser2" or script.Parent.Parent.TextBox.Text == "a3p3onq" or script.Parent.Parent.TextBox.Text == "F3nixonq" then
+			script.Parent.Parent.Visible = false
+			script.Parent.Parent.Parent.Premium.Visible = true
+		end
+	end)
+end
+coroutine.wrap(SUPB_fake_script)()
+local function OHTZ_fake_script() -- TextButton_26.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_26)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Main.Visible = true
+	end)
+end
+coroutine.wrap(OHTZ_fake_script)()
+local function ONZX_fake_script() -- Activate.LocalScript 
+	local script = Instance.new('LocalScript', Activate)
+
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(ONZX_fake_script)()
