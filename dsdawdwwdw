@@ -90,80 +90,76 @@ local TextLabel_16 = Instance.new("TextLabel")
 local ImageLabel = Instance.new("ImageLabel")
 local TextButton_15 = Instance.new("TextButton")
 local UICorner_31 = Instance.new("UICorner")
-local TextButton_16 = Instance.new("TextButton")
+local Premium2 = Instance.new("Frame")
 local UICorner_32 = Instance.new("UICorner")
 local Frame_19 = Instance.new("Frame")
-local UICorner_33 = Instance.new("UICorner")
-local Premium2 = Instance.new("Frame")
-local UICorner_34 = Instance.new("UICorner")
-local Frame_20 = Instance.new("Frame")
 local TextLabel_17 = Instance.new("TextLabel")
+local TextButton_16 = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local Frame_20 = Instance.new("Frame")
+local UICorner_34 = Instance.new("UICorner")
 local TextButton_17 = Instance.new("TextButton")
 local UICorner_35 = Instance.new("UICorner")
 local Frame_21 = Instance.new("Frame")
 local UICorner_36 = Instance.new("UICorner")
+local TextLabel_18 = Instance.new("TextLabel")
+local Frame_22 = Instance.new("Frame")
 local TextButton_18 = Instance.new("TextButton")
 local UICorner_37 = Instance.new("UICorner")
-local Frame_22 = Instance.new("Frame")
-local UICorner_38 = Instance.new("UICorner")
-local TextLabel_18 = Instance.new("TextLabel")
 local Frame_23 = Instance.new("Frame")
-local TextButton_19 = Instance.new("TextButton")
-local UICorner_39 = Instance.new("UICorner")
-local Frame_24 = Instance.new("Frame")
-local UICorner_40 = Instance.new("UICorner")
+local UICorner_38 = Instance.new("UICorner")
 local TextLabel_19 = Instance.new("TextLabel")
 local ImageLabel_2 = Instance.new("ImageLabel")
+local TextButton_19 = Instance.new("TextButton")
+local UICorner_39 = Instance.new("UICorner")
 local TextButton_20 = Instance.new("TextButton")
+local UICorner_40 = Instance.new("UICorner")
+local Frame_24 = Instance.new("Frame")
 local UICorner_41 = Instance.new("UICorner")
 local TextButton_21 = Instance.new("TextButton")
 local UICorner_42 = Instance.new("UICorner")
 local Frame_25 = Instance.new("Frame")
 local UICorner_43 = Instance.new("UICorner")
+local TextLabel_20 = Instance.new("TextLabel")
 local TextButton_22 = Instance.new("TextButton")
 local UICorner_44 = Instance.new("UICorner")
 local Frame_26 = Instance.new("Frame")
 local UICorner_45 = Instance.new("UICorner")
-local TextLabel_20 = Instance.new("TextLabel")
+local TextLabel_21 = Instance.new("TextLabel")
 local TextButton_23 = Instance.new("TextButton")
 local UICorner_46 = Instance.new("UICorner")
 local Frame_27 = Instance.new("Frame")
 local UICorner_47 = Instance.new("UICorner")
-local TextLabel_21 = Instance.new("TextLabel")
+local TextLabel_22 = Instance.new("TextLabel")
 local TextButton_24 = Instance.new("TextButton")
 local UICorner_48 = Instance.new("UICorner")
 local Frame_28 = Instance.new("Frame")
 local UICorner_49 = Instance.new("UICorner")
-local TextLabel_22 = Instance.new("TextLabel")
-local TextButton_25 = Instance.new("TextButton")
+local TextLabel_23 = Instance.new("TextLabel")
+local OpenButton1 = Instance.new("TextButton")
 local UICorner_50 = Instance.new("UICorner")
 local Frame_29 = Instance.new("Frame")
 local UICorner_51 = Instance.new("UICorner")
-local TextLabel_23 = Instance.new("TextLabel")
-local OpenButton1 = Instance.new("TextButton")
+local OpenButton2 = Instance.new("TextButton")
 local UICorner_52 = Instance.new("UICorner")
 local Frame_30 = Instance.new("Frame")
 local UICorner_53 = Instance.new("UICorner")
-local OpenButton2 = Instance.new("TextButton")
+local Activate = Instance.new("Frame")
 local UICorner_54 = Instance.new("UICorner")
 local Frame_31 = Instance.new("Frame")
-local UICorner_55 = Instance.new("UICorner")
-local Activate = Instance.new("Frame")
-local UICorner_56 = Instance.new("UICorner")
-local Frame_32 = Instance.new("Frame")
 local TextLabel_24 = Instance.new("TextLabel")
 local TextButton2 = Instance.new("TextButton")
+local UICorner_55 = Instance.new("UICorner")
+local Frame_32 = Instance.new("Frame")
+local UICorner_56 = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
 local UICorner_57 = Instance.new("UICorner")
 local Frame_33 = Instance.new("Frame")
 local UICorner_58 = Instance.new("UICorner")
-local TextBox = Instance.new("TextBox")
+local TextButton_25 = Instance.new("TextButton")
 local UICorner_59 = Instance.new("UICorner")
 local Frame_34 = Instance.new("Frame")
 local UICorner_60 = Instance.new("UICorner")
-local TextButton_26 = Instance.new("TextButton")
-local UICorner_61 = Instance.new("UICorner")
-local Frame_35 = Instance.new("Frame")
-local UICorner_62 = Instance.new("UICorner")
 
 --Properties:
 
@@ -767,27 +763,6 @@ TextButton_15.TextWrapped = true
 
 UICorner_31.Parent = TextButton_15
 
-TextButton_16.Parent = Premium
-TextButton_16.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-TextButton_16.Position = UDim2.new(0.0593185425, 0, 0.759629607, 0)
-TextButton_16.Size = UDim2.new(0, 49, 0, 50)
-TextButton_16.Font = Enum.Font.SourceSansItalic
-TextButton_16.Text = "Go To Ocean's Tavern"
-TextButton_16.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_16.TextScaled = true
-TextButton_16.TextSize = 14.000
-TextButton_16.TextWrapped = true
-
-UICorner_32.Parent = TextButton_16
-
-Frame_19.Parent = TextButton_16
-Frame_19.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-Frame_19.BorderColor3 = Color3.fromRGB(26, 26, 26)
-Frame_19.Position = UDim2.new(-0.00339056528, 0, 1, 0)
-Frame_19.Size = UDim2.new(0, 49, 0, 8)
-
-UICorner_33.Parent = Frame_19
-
 Premium2.Name = "Premium2"
 Premium2.Parent = ScreenGui
 Premium2.Active = true
@@ -798,14 +773,14 @@ Premium2.Position = UDim2.new(0.305705488, 0, 0.243740797, 0)
 Premium2.Size = UDim2.new(0, 624, 0, 376)
 Premium2.Visible = false
 
-UICorner_34.CornerRadius = UDim.new(0, 4)
-UICorner_34.Parent = Premium2
+UICorner_32.CornerRadius = UDim.new(0, 4)
+UICorner_32.Parent = Premium2
 
-Frame_20.Parent = Premium2
-Frame_20.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-Frame_20.BorderColor3 = Color3.fromRGB(26, 26, 26)
-Frame_20.Position = UDim2.new(0, 0, 0.0998497829, 0)
-Frame_20.Size = UDim2.new(0, 624, 0, 7)
+Frame_19.Parent = Premium2
+Frame_19.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_19.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_19.Position = UDim2.new(0, 0, 0.0998497829, 0)
+Frame_19.Size = UDim2.new(0, 624, 0, 7)
 
 TextLabel_17.Parent = Premium2
 TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -818,16 +793,37 @@ TextLabel_17.TextScaled = true
 TextLabel_17.TextSize = 14.000
 TextLabel_17.TextWrapped = true
 
+TextButton_16.Parent = Premium2
+TextButton_16.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextButton_16.Position = UDim2.new(0.91445744, 0, 0.139166981, 0)
+TextButton_16.Size = UDim2.new(0, 45, 0, 311)
+TextButton_16.Font = Enum.Font.SourceSansItalic
+TextButton_16.Text = "If It Doesn't Work Spam The Buttons, Make Sure You Typed The Spell Listed On The Bottom."
+TextButton_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_16.TextScaled = true
+TextButton_16.TextSize = 14.000
+TextButton_16.TextStrokeTransparency = 1.010
+TextButton_16.TextWrapped = true
+
+UICorner_33.Parent = TextButton_16
+
+Frame_20.Parent = TextButton_16
+Frame_20.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_20.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_20.Position = UDim2.new(-0.00339084212, 0, 1, 0)
+Frame_20.Size = UDim2.new(0, 45, 0, 8)
+
+UICorner_34.Parent = Frame_20
+
 TextButton_17.Parent = Premium2
 TextButton_17.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-TextButton_17.Position = UDim2.new(0.91445744, 0, 0.139166981, 0)
-TextButton_17.Size = UDim2.new(0, 45, 0, 311)
+TextButton_17.Position = UDim2.new(0.242393881, 0, 0.139166996, 0)
+TextButton_17.Size = UDim2.new(0, 200, 0, 50)
 TextButton_17.Font = Enum.Font.SourceSansItalic
-TextButton_17.Text = "If It Doesn't Work Spam The Buttons, Make Sure You Typed The Spell Listed On The Bottom."
+TextButton_17.Text = "Mini All"
 TextButton_17.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_17.TextScaled = true
 TextButton_17.TextSize = 14.000
-TextButton_17.TextStrokeTransparency = 1.010
 TextButton_17.TextWrapped = true
 
 UICorner_35.Parent = TextButton_17
@@ -835,31 +831,10 @@ UICorner_35.Parent = TextButton_17
 Frame_21.Parent = TextButton_17
 Frame_21.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 Frame_21.BorderColor3 = Color3.fromRGB(26, 26, 26)
-Frame_21.Position = UDim2.new(-0.00339084212, 0, 1, 0)
-Frame_21.Size = UDim2.new(0, 45, 0, 8)
+Frame_21.Position = UDim2.new(-0.00339080812, 0, 1, 0)
+Frame_21.Size = UDim2.new(0, 200, 0, 8)
 
 UICorner_36.Parent = Frame_21
-
-TextButton_18.Parent = Premium2
-TextButton_18.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-TextButton_18.Position = UDim2.new(0.242393881, 0, 0.139166996, 0)
-TextButton_18.Size = UDim2.new(0, 200, 0, 50)
-TextButton_18.Font = Enum.Font.SourceSansItalic
-TextButton_18.Text = "Mini All"
-TextButton_18.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_18.TextScaled = true
-TextButton_18.TextSize = 14.000
-TextButton_18.TextWrapped = true
-
-UICorner_37.Parent = TextButton_18
-
-Frame_22.Parent = TextButton_18
-Frame_22.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-Frame_22.BorderColor3 = Color3.fromRGB(26, 26, 26)
-Frame_22.Position = UDim2.new(-0.00339080812, 0, 1, 0)
-Frame_22.Size = UDim2.new(0, 200, 0, 8)
-
-UICorner_38.Parent = Frame_22
 
 TextLabel_18.Parent = Premium2
 TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -874,32 +849,32 @@ TextLabel_18.TextSize = 14.000
 TextLabel_18.TextTransparency = 0.270
 TextLabel_18.TextWrapped = true
 
-Frame_23.Parent = Premium2
+Frame_22.Parent = Premium2
+Frame_22.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_22.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_22.Position = UDim2.new(0.200320512, 0, 0.118466802, 0)
+Frame_22.Size = UDim2.new(0, 0, 0, 331)
+
+TextButton_18.Parent = Premium2
+TextButton_18.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextButton_18.Position = UDim2.new(0.463999987, 0, 0.912999988, 0)
+TextButton_18.Size = UDim2.new(0, 119, 0, 28)
+TextButton_18.Font = Enum.Font.SourceSansItalic
+TextButton_18.Text = "Back"
+TextButton_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_18.TextScaled = true
+TextButton_18.TextSize = 14.000
+TextButton_18.TextWrapped = true
+
+UICorner_37.Parent = TextButton_18
+
+Frame_23.Parent = TextButton_18
 Frame_23.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 Frame_23.BorderColor3 = Color3.fromRGB(26, 26, 26)
-Frame_23.Position = UDim2.new(0.200320512, 0, 0.118466802, 0)
-Frame_23.Size = UDim2.new(0, 0, 0, 331)
+Frame_23.Position = UDim2.new(-0.00339078507, 0, 1, 0)
+Frame_23.Size = UDim2.new(0, 119, 0, 8)
 
-TextButton_19.Parent = Premium2
-TextButton_19.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-TextButton_19.Position = UDim2.new(0.463999987, 0, 0.912999988, 0)
-TextButton_19.Size = UDim2.new(0, 119, 0, 28)
-TextButton_19.Font = Enum.Font.SourceSansItalic
-TextButton_19.Text = "Back"
-TextButton_19.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_19.TextScaled = true
-TextButton_19.TextSize = 14.000
-TextButton_19.TextWrapped = true
-
-UICorner_39.Parent = TextButton_19
-
-Frame_24.Parent = TextButton_19
-Frame_24.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-Frame_24.BorderColor3 = Color3.fromRGB(26, 26, 26)
-Frame_24.Position = UDim2.new(-0.00339078507, 0, 1, 0)
-Frame_24.Size = UDim2.new(0, 119, 0, 8)
-
-UICorner_40.Parent = Frame_24
+UICorner_38.Parent = Frame_23
 
 TextLabel_19.Parent = Premium2
 TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -921,26 +896,47 @@ ImageLabel_2.Position = UDim2.new(0.00641025603, 0, 0.375869066, 0)
 ImageLabel_2.Size = UDim2.new(0, 115, 0, 115)
 ImageLabel_2.Image = "rbxassetid://31613125"
 
+TextButton_19.Parent = Premium2
+TextButton_19.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextButton_19.Position = UDim2.new(0.927277982, 0, 0.003528676, 0)
+TextButton_19.Size = UDim2.new(0, 45, 0, 35)
+TextButton_19.Font = Enum.Font.GothamBold
+TextButton_19.Text = "X"
+TextButton_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_19.TextScaled = true
+TextButton_19.TextSize = 14.000
+TextButton_19.TextStrokeTransparency = 1.010
+TextButton_19.TextWrapped = true
+
+UICorner_39.Parent = TextButton_19
+
 TextButton_20.Parent = Premium2
 TextButton_20.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-TextButton_20.Position = UDim2.new(0.927277982, 0, 0.003528676, 0)
-TextButton_20.Size = UDim2.new(0, 45, 0, 35)
-TextButton_20.Font = Enum.Font.GothamBold
-TextButton_20.Text = "X"
+TextButton_20.Position = UDim2.new(0.242393911, 0, 0.750869095, 0)
+TextButton_20.Size = UDim2.new(0, 200, 0, 50)
+TextButton_20.Font = Enum.Font.SourceSansItalic
+TextButton_20.Text = "Auto Clash"
 TextButton_20.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_20.TextScaled = true
 TextButton_20.TextSize = 14.000
-TextButton_20.TextStrokeTransparency = 1.010
 TextButton_20.TextWrapped = true
 
-UICorner_41.Parent = TextButton_20
+UICorner_40.Parent = TextButton_20
+
+Frame_24.Parent = TextButton_20
+Frame_24.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_24.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_24.Position = UDim2.new(-0.00339080812, 0, 1, 0)
+Frame_24.Size = UDim2.new(0, 200, 0, 8)
+
+UICorner_41.Parent = Frame_24
 
 TextButton_21.Parent = Premium2
 TextButton_21.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-TextButton_21.Position = UDim2.new(0.242393911, 0, 0.750869095, 0)
+TextButton_21.Position = UDim2.new(0.242393881, 0, 0.439698905, 0)
 TextButton_21.Size = UDim2.new(0, 200, 0, 50)
 TextButton_21.Font = Enum.Font.SourceSansItalic
-TextButton_21.Text = "Auto Clash"
+TextButton_21.Text = "Ice All"
 TextButton_21.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_21.TextScaled = true
 TextButton_21.TextSize = 14.000
@@ -956,12 +952,25 @@ Frame_25.Size = UDim2.new(0, 200, 0, 8)
 
 UICorner_43.Parent = Frame_25
 
+TextLabel_20.Parent = Premium2
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.Position = UDim2.new(0.272593558, 0, 0.593316257, 0)
+TextLabel_20.Size = UDim2.new(0, 164, 0, 27)
+TextLabel_20.Font = Enum.Font.GothamBold
+TextLabel_20.Text = "Type \"Glacius\" And Shoot On The Ground Before Clicking."
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextScaled = true
+TextLabel_20.TextSize = 14.000
+TextLabel_20.TextTransparency = 0.270
+TextLabel_20.TextWrapped = true
+
 TextButton_22.Parent = Premium2
 TextButton_22.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-TextButton_22.Position = UDim2.new(0.242393881, 0, 0.439698905, 0)
+TextButton_22.Position = UDim2.new(0.580534875, 0, 0.139166996, 0)
 TextButton_22.Size = UDim2.new(0, 200, 0, 50)
 TextButton_22.Font = Enum.Font.SourceSansItalic
-TextButton_22.Text = "Ice All"
+TextButton_22.Text = "Delete All"
 TextButton_22.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_22.TextScaled = true
 TextButton_22.TextSize = 14.000
@@ -977,25 +986,25 @@ Frame_26.Size = UDim2.new(0, 200, 0, 8)
 
 UICorner_45.Parent = Frame_26
 
-TextLabel_20.Parent = Premium2
-TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_20.BackgroundTransparency = 1.000
-TextLabel_20.Position = UDim2.new(0.272593558, 0, 0.593316257, 0)
-TextLabel_20.Size = UDim2.new(0, 164, 0, 27)
-TextLabel_20.Font = Enum.Font.GothamBold
-TextLabel_20.Text = "Type \"Glacius\" And Shoot On The Ground Before Clicking."
-TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_20.TextScaled = true
-TextLabel_20.TextSize = 14.000
-TextLabel_20.TextTransparency = 0.270
-TextLabel_20.TextWrapped = true
+TextLabel_21.Parent = Premium2
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.Position = UDim2.new(0.607529461, 0, 0.292784363, 0)
+TextLabel_21.Size = UDim2.new(0, 164, 0, 27)
+TextLabel_21.Font = Enum.Font.GothamBold
+TextLabel_21.Text = "Type \"Deletrius\" And Shoot On The Ground Before Clicking."
+TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.TextScaled = true
+TextLabel_21.TextSize = 14.000
+TextLabel_21.TextTransparency = 0.270
+TextLabel_21.TextWrapped = true
 
 TextButton_23.Parent = Premium2
 TextButton_23.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-TextButton_23.Position = UDim2.new(0.580534875, 0, 0.139166996, 0)
+TextButton_23.Position = UDim2.new(0.580534875, 0, 0.439698935, 0)
 TextButton_23.Size = UDim2.new(0, 200, 0, 50)
 TextButton_23.Font = Enum.Font.SourceSansItalic
-TextButton_23.Text = "Delete All"
+TextButton_23.Text = "Mute All"
 TextButton_23.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_23.TextScaled = true
 TextButton_23.TextSize = 14.000
@@ -1011,25 +1020,25 @@ Frame_27.Size = UDim2.new(0, 200, 0, 8)
 
 UICorner_47.Parent = Frame_27
 
-TextLabel_21.Parent = Premium2
-TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_21.BackgroundTransparency = 1.000
-TextLabel_21.Position = UDim2.new(0.607529461, 0, 0.292784363, 0)
-TextLabel_21.Size = UDim2.new(0, 164, 0, 27)
-TextLabel_21.Font = Enum.Font.GothamBold
-TextLabel_21.Text = "Type \"Deletrius\" And Shoot On The Ground Before Clicking."
-TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_21.TextScaled = true
-TextLabel_21.TextSize = 14.000
-TextLabel_21.TextTransparency = 0.270
-TextLabel_21.TextWrapped = true
+TextLabel_22.Parent = Premium2
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.BackgroundTransparency = 1.000
+TextLabel_22.Position = UDim2.new(0.607529461, 0, 0.593316317, 0)
+TextLabel_22.Size = UDim2.new(0, 164, 0, 27)
+TextLabel_22.Font = Enum.Font.GothamBold
+TextLabel_22.Text = "Type \"Silencio\" And Shoot On The Ground Before Clicking."
+TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.TextScaled = true
+TextLabel_22.TextSize = 14.000
+TextLabel_22.TextTransparency = 0.270
+TextLabel_22.TextWrapped = true
 
 TextButton_24.Parent = Premium2
 TextButton_24.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-TextButton_24.Position = UDim2.new(0.580534875, 0, 0.439698935, 0)
+TextButton_24.Position = UDim2.new(0.580534875, 0, 0.679060638, 0)
 TextButton_24.Size = UDim2.new(0, 200, 0, 50)
 TextButton_24.Font = Enum.Font.SourceSansItalic
-TextButton_24.Text = "Mute All"
+TextButton_24.Text = "Blind All"
 TextButton_24.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_24.TextScaled = true
 TextButton_24.TextSize = 14.000
@@ -1044,40 +1053,6 @@ Frame_28.Position = UDim2.new(-0.00339080812, 0, 1, 0)
 Frame_28.Size = UDim2.new(0, 200, 0, 8)
 
 UICorner_49.Parent = Frame_28
-
-TextLabel_22.Parent = Premium2
-TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_22.BackgroundTransparency = 1.000
-TextLabel_22.Position = UDim2.new(0.607529461, 0, 0.593316317, 0)
-TextLabel_22.Size = UDim2.new(0, 164, 0, 27)
-TextLabel_22.Font = Enum.Font.GothamBold
-TextLabel_22.Text = "Type \"Silencio\" And Shoot On The Ground Before Clicking."
-TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_22.TextScaled = true
-TextLabel_22.TextSize = 14.000
-TextLabel_22.TextTransparency = 0.270
-TextLabel_22.TextWrapped = true
-
-TextButton_25.Parent = Premium2
-TextButton_25.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-TextButton_25.Position = UDim2.new(0.580534875, 0, 0.679060638, 0)
-TextButton_25.Size = UDim2.new(0, 200, 0, 50)
-TextButton_25.Font = Enum.Font.SourceSansItalic
-TextButton_25.Text = "Blind All"
-TextButton_25.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_25.TextScaled = true
-TextButton_25.TextSize = 14.000
-TextButton_25.TextWrapped = true
-
-UICorner_50.Parent = TextButton_25
-
-Frame_29.Parent = TextButton_25
-Frame_29.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-Frame_29.BorderColor3 = Color3.fromRGB(26, 26, 26)
-Frame_29.Position = UDim2.new(-0.00339080812, 0, 1, 0)
-Frame_29.Size = UDim2.new(0, 200, 0, 8)
-
-UICorner_51.Parent = Frame_29
 
 TextLabel_23.Parent = Premium2
 TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -1105,15 +1080,15 @@ OpenButton1.TextScaled = true
 OpenButton1.TextSize = 14.000
 OpenButton1.TextWrapped = true
 
-UICorner_52.Parent = OpenButton1
+UICorner_50.Parent = OpenButton1
 
-Frame_30.Parent = OpenButton1
-Frame_30.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-Frame_30.BorderColor3 = Color3.fromRGB(26, 26, 26)
-Frame_30.Position = UDim2.new(-0.00339080999, 0, 1, 0)
-Frame_30.Size = UDim2.new(0, 159, 0, 8)
+Frame_29.Parent = OpenButton1
+Frame_29.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_29.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_29.Position = UDim2.new(-0.00339080999, 0, 1, 0)
+Frame_29.Size = UDim2.new(0, 159, 0, 8)
 
-UICorner_53.Parent = Frame_30
+UICorner_51.Parent = Frame_29
 
 OpenButton2.Name = "OpenButton2"
 OpenButton2.Parent = ScreenGui
@@ -1128,15 +1103,15 @@ OpenButton2.TextScaled = true
 OpenButton2.TextSize = 14.000
 OpenButton2.TextWrapped = true
 
-UICorner_54.Parent = OpenButton2
+UICorner_52.Parent = OpenButton2
 
-Frame_31.Parent = OpenButton2
-Frame_31.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-Frame_31.BorderColor3 = Color3.fromRGB(26, 26, 26)
-Frame_31.Position = UDim2.new(-0.00339080999, 0, 1, 0)
-Frame_31.Size = UDim2.new(0, 159, 0, 8)
+Frame_30.Parent = OpenButton2
+Frame_30.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_30.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_30.Position = UDim2.new(-0.00339080999, 0, 1, 0)
+Frame_30.Size = UDim2.new(0, 159, 0, 8)
 
-UICorner_55.Parent = Frame_31
+UICorner_53.Parent = Frame_30
 
 Activate.Name = "Activate"
 Activate.Parent = ScreenGui
@@ -1148,14 +1123,14 @@ Activate.Position = UDim2.new(0.415959895, 0, 0.243740767, 0)
 Activate.Size = UDim2.new(0, 356, 0, 225)
 Activate.Visible = false
 
-UICorner_56.CornerRadius = UDim.new(0, 4)
-UICorner_56.Parent = Activate
+UICorner_54.CornerRadius = UDim.new(0, 4)
+UICorner_54.Parent = Activate
 
-Frame_32.Parent = Activate
-Frame_32.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-Frame_32.BorderColor3 = Color3.fromRGB(26, 26, 26)
-Frame_32.Position = UDim2.new(0, 0, 0.166339129, 0)
-Frame_32.Size = UDim2.new(0, 356, 0, 6)
+Frame_31.Parent = Activate
+Frame_31.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_31.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_31.Position = UDim2.new(0, 0, 0.166339129, 0)
+Frame_31.Size = UDim2.new(0, 356, 0, 6)
 
 TextLabel_24.Parent = Activate
 TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -1180,15 +1155,15 @@ TextButton2.TextScaled = true
 TextButton2.TextSize = 14.000
 TextButton2.TextWrapped = true
 
-UICorner_57.Parent = TextButton2
+UICorner_55.Parent = TextButton2
 
-Frame_33.Parent = TextButton2
-Frame_33.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-Frame_33.BorderColor3 = Color3.fromRGB(26, 26, 26)
-Frame_33.Position = UDim2.new(-0.00339080812, 0, 1, 0)
-Frame_33.Size = UDim2.new(0, 200, 0, 8)
+Frame_32.Parent = TextButton2
+Frame_32.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_32.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_32.Position = UDim2.new(-0.00339080812, 0, 1, 0)
+Frame_32.Size = UDim2.new(0, 200, 0, 8)
 
-UICorner_58.Parent = Frame_33
+UICorner_56.Parent = Frame_32
 
 TextBox.Parent = Activate
 TextBox.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
@@ -1202,40 +1177,40 @@ TextBox.Text = ""
 TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextBox.TextSize = 14.000
 
-UICorner_59.Parent = TextBox
+UICorner_57.Parent = TextBox
 
-Frame_34.Parent = TextBox
+Frame_33.Parent = TextBox
+Frame_33.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_33.BorderColor3 = Color3.fromRGB(26, 26, 26)
+Frame_33.Position = UDim2.new(-0.00339080812, 0, 1, 0)
+Frame_33.Size = UDim2.new(0, 200, 0, 8)
+
+UICorner_58.Parent = Frame_33
+
+TextButton_25.Parent = Activate
+TextButton_25.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextButton_25.Position = UDim2.new(0.894146323, 0, 0.840788007, 0)
+TextButton_25.Size = UDim2.new(0, 36, 0, 28)
+TextButton_25.Font = Enum.Font.GothamBold
+TextButton_25.Text = "X"
+TextButton_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_25.TextScaled = true
+TextButton_25.TextSize = 14.000
+TextButton_25.TextWrapped = true
+
+UICorner_59.Parent = TextButton_25
+
+Frame_34.Parent = TextButton_25
 Frame_34.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 Frame_34.BorderColor3 = Color3.fromRGB(26, 26, 26)
-Frame_34.Position = UDim2.new(-0.00339080812, 0, 1, 0)
-Frame_34.Size = UDim2.new(0, 200, 0, 8)
+Frame_34.Position = UDim2.new(-0.00339084212, 0, 1, 0)
+Frame_34.Size = UDim2.new(0, 36, 0, 8)
 
 UICorner_60.Parent = Frame_34
 
-TextButton_26.Parent = Activate
-TextButton_26.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
-TextButton_26.Position = UDim2.new(0.894146323, 0, 0.840788007, 0)
-TextButton_26.Size = UDim2.new(0, 36, 0, 28)
-TextButton_26.Font = Enum.Font.GothamBold
-TextButton_26.Text = "X"
-TextButton_26.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_26.TextScaled = true
-TextButton_26.TextSize = 14.000
-TextButton_26.TextWrapped = true
-
-UICorner_61.Parent = TextButton_26
-
-Frame_35.Parent = TextButton_26
-Frame_35.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-Frame_35.BorderColor3 = Color3.fromRGB(26, 26, 26)
-Frame_35.Position = UDim2.new(-0.00339084212, 0, 1, 0)
-Frame_35.Size = UDim2.new(0, 36, 0, 8)
-
-UICorner_62.Parent = Frame_35
-
 -- Scripts:
 
-local function IXFFMUX_fake_script() -- TextLabel.LocalScript 
+local function YXDKI_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -1248,8 +1223,8 @@ local function IXFFMUX_fake_script() -- TextLabel.LocalScript
 		counter = counter + 0.01
 	end
 end
-coroutine.wrap(IXFFMUX_fake_script)()
-local function JNFHM_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(YXDKI_fake_script)()
+local function PAKS_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local enabled = false
@@ -1275,8 +1250,8 @@ local function JNFHM_fake_script() -- TextButton.LocalScript
 			return end
 	end)
 end
-coroutine.wrap(JNFHM_fake_script)()
-local function OWSBA_fake_script() -- TextLabel_4.LocalScript 
+coroutine.wrap(PAKS_fake_script)()
+local function KBFFYI_fake_script() -- TextLabel_4.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_4)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -1289,8 +1264,8 @@ local function OWSBA_fake_script() -- TextLabel_4.LocalScript
 		counter = counter + 0.01
 	end
 end
-coroutine.wrap(OWSBA_fake_script)()
-local function GLHUI_fake_script() -- TextLabel_6.LocalScript 
+coroutine.wrap(KBFFYI_fake_script)()
+local function GYUOAUY_fake_script() -- TextLabel_6.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_6)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -1303,8 +1278,8 @@ local function GLHUI_fake_script() -- TextLabel_6.LocalScript
 		counter = counter + 0.01
 	end
 end
-coroutine.wrap(GLHUI_fake_script)()
-local function HWIWC_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(GYUOAUY_fake_script)()
+local function CVEHLR_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1467,16 +1442,16 @@ local function HWIWC_fake_script() -- TextButton_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(HWIWC_fake_script)()
-local function RWSNBHU_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(CVEHLR_fake_script)()
+local function MHICTUU_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 	end)
 end
-coroutine.wrap(RWSNBHU_fake_script)()
-local function MUHH_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(MHICTUU_fake_script)()
+local function WNQI_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1484,21 +1459,21 @@ local function MUHH_fake_script() -- TextButton_4.LocalScript
 		script.Parent.Parent.Parent.Info.Visible = true
 	end)
 end
-coroutine.wrap(MUHH_fake_script)()
-local function AWRI_fake_script() -- Main.LocalScript 
+coroutine.wrap(WNQI_fake_script)()
+local function YEDB_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(AWRI_fake_script)()
-local function OCCOV_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(YEDB_fake_script)()
+local function FWPCX_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	
 end
-coroutine.wrap(OCCOV_fake_script)()
-local function TPCEKE_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(FWPCX_fake_script)()
+local function GWNE_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1506,8 +1481,8 @@ local function TPCEKE_fake_script() -- TextButton_5.LocalScript
 		script.Parent.Parent.Parent.Activate.Visible = true
 	end)
 end
-coroutine.wrap(TPCEKE_fake_script)()
-local function FNIHPK_fake_script() -- TextLabel_8.LocalScript 
+coroutine.wrap(GWNE_fake_script)()
+local function GVHHLM_fake_script() -- TextLabel_8.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_8)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -1520,8 +1495,8 @@ local function FNIHPK_fake_script() -- TextLabel_8.LocalScript
 		counter = counter + 0.01
 	end
 end
-coroutine.wrap(FNIHPK_fake_script)()
-local function LGET_fake_script() -- TextButton_6.LocalScript 
+coroutine.wrap(GVHHLM_fake_script)()
+local function DSRJV_fake_script() -- TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1529,8 +1504,8 @@ local function LGET_fake_script() -- TextButton_6.LocalScript
 		script.Parent.Parent.Parent.Main.Visible = true
 	end)
 end
-coroutine.wrap(LGET_fake_script)()
-local function NXBKXL_fake_script() -- TextLabel_10.LocalScript 
+coroutine.wrap(DSRJV_fake_script)()
+local function PUTBZ_fake_script() -- TextLabel_10.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_10)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -1543,8 +1518,8 @@ local function NXBKXL_fake_script() -- TextLabel_10.LocalScript
 		counter = counter + 0.01
 	end
 end
-coroutine.wrap(NXBKXL_fake_script)()
-local function PFIV_fake_script() -- TextButton_7.LocalScript 
+coroutine.wrap(PUTBZ_fake_script)()
+local function HUQSUH_fake_script() -- TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1707,28 +1682,28 @@ local function PFIV_fake_script() -- TextButton_7.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PFIV_fake_script)()
-local function NTNEQF_fake_script() -- TextButton_8.LocalScript 
+coroutine.wrap(HUQSUH_fake_script)()
+local function UUNS_fake_script() -- TextButton_8.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 	end)
 end
-coroutine.wrap(NTNEQF_fake_script)()
-local function LJZB_fake_script() -- TextButton_9.LocalScript 
+coroutine.wrap(UUNS_fake_script)()
+local function DZCRGE_fake_script() -- TextButton_9.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_9)
 
 	
 end
-coroutine.wrap(LJZB_fake_script)()
-local function BATFWWC_fake_script() -- TextButton_9.LocalScript 
+coroutine.wrap(DZCRGE_fake_script)()
+local function VDQPNF_fake_script() -- TextButton_9.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_9)
 
 	
 end
-coroutine.wrap(BATFWWC_fake_script)()
-local function XZHAWLW_fake_script() -- TextButton_10.LocalScript 
+coroutine.wrap(VDQPNF_fake_script)()
+local function FMYG_fake_script() -- TextButton_10.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1891,8 +1866,8 @@ local function XZHAWLW_fake_script() -- TextButton_10.LocalScript
 		end
 	end)
 end
-coroutine.wrap(XZHAWLW_fake_script)()
-local function ISQC_fake_script() -- TextButton_11.LocalScript 
+coroutine.wrap(FMYG_fake_script)()
+local function BNLKXAR_fake_script() -- TextButton_11.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_11)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2056,8 +2031,8 @@ local function ISQC_fake_script() -- TextButton_11.LocalScript
 		
 	end)
 end
-coroutine.wrap(ISQC_fake_script)()
-local function ZBJCQGD_fake_script() -- TextButton_12.LocalScript 
+coroutine.wrap(BNLKXAR_fake_script)()
+local function WVUF_fake_script() -- TextButton_12.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_12)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2222,8 +2197,8 @@ local function ZBJCQGD_fake_script() -- TextButton_12.LocalScript
 		
 	end)
 end
-coroutine.wrap(ZBJCQGD_fake_script)()
-local function WADR_fake_script() -- TextButton_13.LocalScript 
+coroutine.wrap(WVUF_fake_script)()
+local function BVZZFE_fake_script() -- TextButton_13.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_13)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2386,8 +2361,8 @@ local function WADR_fake_script() -- TextButton_13.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WADR_fake_script)()
-local function HTOGQZH_fake_script() -- TextButton_14.LocalScript 
+coroutine.wrap(BVZZFE_fake_script)()
+local function DQFLHYF_fake_script() -- TextButton_14.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_14)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2396,15 +2371,15 @@ local function HTOGQZH_fake_script() -- TextButton_14.LocalScript
 		script.Parent.Parent.Position = script.Parent.Parent.Parent.Premium2.Position
 	end)
 end
-coroutine.wrap(HTOGQZH_fake_script)()
-local function EHYLTO_fake_script() -- Premium.LocalScript 
+coroutine.wrap(DQFLHYF_fake_script)()
+local function SODX_fake_script() -- Premium.LocalScript 
 	local script = Instance.new('LocalScript', Premium)
 
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(EHYLTO_fake_script)()
-local function NLKXY_fake_script() -- TextButton_15.LocalScript 
+coroutine.wrap(SODX_fake_script)()
+local function MUSDPI_fake_script() -- TextButton_15.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_15)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2412,33 +2387,14 @@ local function NLKXY_fake_script() -- TextButton_15.LocalScript
 		script.Parent.Parent.Parent.OpenButton1.Visible = true
 	end)
 end
-coroutine.wrap(NLKXY_fake_script)()
-local function VHFYKYX_fake_script() -- TextButton_15.LocalScript 
+coroutine.wrap(MUSDPI_fake_script)()
+local function EONDCBU_fake_script() -- TextButton_15.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_15)
 
 	
 end
-coroutine.wrap(VHFYKYX_fake_script)()
-local function ZQHTFWY_fake_script() -- TextButton_16.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_16)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		-- Script generated by SimpleSpy - credits to exx#9394
-	
-		local args = {
-			[1] = {
-				["distance"] = 12.868257143978,
-				["spellName"] = "appa",
-				["mousePos"] = Vector3.new(-538.06695556641, 339.14331054688, 1210.2255859375)
-			}
-		}
-	
-		game:GetService("InsertService").Events.uniqueSpell:FireServer(unpack(args))
-	
-	end)
-end
-coroutine.wrap(ZQHTFWY_fake_script)()
-local function OCRJLL_fake_script() -- TextLabel_17.LocalScript 
+coroutine.wrap(EONDCBU_fake_script)()
+local function RVMDCR_fake_script() -- TextLabel_17.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_17)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -2451,9 +2407,9 @@ local function OCRJLL_fake_script() -- TextLabel_17.LocalScript
 		counter = counter + 0.01
 	end
 end
-coroutine.wrap(OCRJLL_fake_script)()
-local function XTBJOB_fake_script() -- TextButton_18.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_18)
+coroutine.wrap(RVMDCR_fake_script)()
+local function YJJRV_fake_script() -- TextButton_17.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_17)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	
@@ -2616,9 +2572,9 @@ local function XTBJOB_fake_script() -- TextButton_18.LocalScript
 		
 	end)
 end
-coroutine.wrap(XTBJOB_fake_script)()
-local function VONSRB_fake_script() -- TextButton_19.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_19)
+coroutine.wrap(YJJRV_fake_script)()
+local function EWMHGMS_fake_script() -- TextButton_18.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_18)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
@@ -2626,31 +2582,31 @@ local function VONSRB_fake_script() -- TextButton_19.LocalScript
 		script.Parent.Parent.Parent.Premium.Position = script.Parent.Parent.Position
 	end)
 end
-coroutine.wrap(VONSRB_fake_script)()
-local function DENIB_fake_script() -- Premium2.LocalScript 
+coroutine.wrap(EWMHGMS_fake_script)()
+local function HLQL_fake_script() -- Premium2.LocalScript 
 	local script = Instance.new('LocalScript', Premium2)
 
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(DENIB_fake_script)()
-local function UIGLKPX_fake_script() -- TextButton_20.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_20)
+coroutine.wrap(HLQL_fake_script)()
+local function VJGHRPM_fake_script() -- TextButton_19.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_19)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 		script.Parent.Parent.Parent.OpenButton2.Visible = true
 	end)
 end
-coroutine.wrap(UIGLKPX_fake_script)()
-local function TGQGSM_fake_script() -- TextButton_20.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_20)
+coroutine.wrap(VJGHRPM_fake_script)()
+local function ZHXP_fake_script() -- TextButton_19.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_19)
 
 	
 end
-coroutine.wrap(TGQGSM_fake_script)()
-local function ZMZYA_fake_script() -- TextButton_21.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_21)
+coroutine.wrap(ZHXP_fake_script)()
+local function OEAVE_fake_script() -- TextButton_20.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_20)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		while true do
@@ -2665,8 +2621,173 @@ local function ZMZYA_fake_script() -- TextButton_21.LocalScript
 	end
 	end)
 end
-coroutine.wrap(ZMZYA_fake_script)()
-local function SSBDC_fake_script() -- TextButton_22.LocalScript 
+coroutine.wrap(OEAVE_fake_script)()
+local function MIBFGOH_fake_script() -- TextButton_21.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_21)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		while true do
+			wait(0.2)
+			local players = game.Players:GetPlayers()
+			local daw = players[math.random(1,#players)]
+			-- Script generated by SimpleSpy - credits to exx#9394
+			if daw.Character.Humanoid.Health >= 0 then
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482230,
+						["actor"] = daw.Character,
+						["spellName"] = "glacius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "glacius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 21.665488686356,
+						["actor"] = daw.Character,
+						["spellName"] = "glacius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 71.00383142283,
+						["actor"] = daw.Character,
+						["spellName"] = "glacius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "glacius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 12.868257143978,
+						["actor"] = daw.Character,
+						["spellName"] = "glacius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482230,
+						["actor"] = daw.Character,
+						["spellName"] = "glacius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "glacius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 21.665488686356,
+						["actor"] = daw.Character,
+						["spellName"] = "glacius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 71.00383142283,
+						["actor"] = daw.Character,
+						["spellName"] = "glacius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 5.8701998482231,
+						["actor"] = daw.Character,
+						["spellName"] = "glacius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+				local args = {
+					[1] = {
+						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
+						["hitPart"] = daw.Character.HumanoidRootPart,
+						["id"] = "your mom haha noob",
+						["distance"] = 12.868257143978,
+						["actor"] = daw.Character,
+						["spellName"] = "glacius"
+					}
+				}
+				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
+	
+	
+			else
+				print("sheesh")
+			end
+		end
+		
+	end)
+end
+coroutine.wrap(MIBFGOH_fake_script)()
+local function HCCP_fake_script() -- TextButton_22.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_22)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2685,7 +2806,7 @@ local function SSBDC_fake_script() -- TextButton_22.LocalScript
 						["id"] = "your mom haha noob",
 						["distance"] = 5.8701998482230,
 						["actor"] = daw.Character,
-						["spellName"] = "glacius"
+						["spellName"] = "deletrius"
 					}
 				}
 				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
@@ -2697,7 +2818,7 @@ local function SSBDC_fake_script() -- TextButton_22.LocalScript
 						["id"] = "your mom haha noob",
 						["distance"] = 5.8701998482231,
 						["actor"] = daw.Character,
-						["spellName"] = "glacius"
+						["spellName"] = "deletrius"
 					}
 				}
 				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
@@ -2709,7 +2830,7 @@ local function SSBDC_fake_script() -- TextButton_22.LocalScript
 						["id"] = "your mom haha noob",
 						["distance"] = 21.665488686356,
 						["actor"] = daw.Character,
-						["spellName"] = "glacius"
+						["spellName"] = "deletrius"
 					}
 				}
 				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
@@ -2721,7 +2842,7 @@ local function SSBDC_fake_script() -- TextButton_22.LocalScript
 						["id"] = "your mom haha noob",
 						["distance"] = 71.00383142283,
 						["actor"] = daw.Character,
-						["spellName"] = "glacius"
+						["spellName"] = "deletrius"
 					}
 				}
 				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
@@ -2734,7 +2855,7 @@ local function SSBDC_fake_script() -- TextButton_22.LocalScript
 						["id"] = "your mom haha noob",
 						["distance"] = 5.8701998482231,
 						["actor"] = daw.Character,
-						["spellName"] = "glacius"
+						["spellName"] = "deletrius"
 					}
 				}
 				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
@@ -2745,7 +2866,7 @@ local function SSBDC_fake_script() -- TextButton_22.LocalScript
 						["id"] = "your mom haha noob",
 						["distance"] = 12.868257143978,
 						["actor"] = daw.Character,
-						["spellName"] = "glacius"
+						["spellName"] = "deletrius"
 					}
 				}
 				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
@@ -2757,7 +2878,7 @@ local function SSBDC_fake_script() -- TextButton_22.LocalScript
 						["id"] = "your mom haha noob",
 						["distance"] = 5.8701998482230,
 						["actor"] = daw.Character,
-						["spellName"] = "glacius"
+						["spellName"] = "deletrius"
 					}
 				}
 				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
@@ -2769,7 +2890,7 @@ local function SSBDC_fake_script() -- TextButton_22.LocalScript
 						["id"] = "your mom haha noob",
 						["distance"] = 5.8701998482231,
 						["actor"] = daw.Character,
-						["spellName"] = "glacius"
+						["spellName"] = "deletrius"
 					}
 				}
 				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
@@ -2781,7 +2902,7 @@ local function SSBDC_fake_script() -- TextButton_22.LocalScript
 						["id"] = "your mom haha noob",
 						["distance"] = 21.665488686356,
 						["actor"] = daw.Character,
-						["spellName"] = "glacius"
+						["spellName"] = "deletrius"
 					}
 				}
 				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
@@ -2793,7 +2914,7 @@ local function SSBDC_fake_script() -- TextButton_22.LocalScript
 						["id"] = "your mom haha noob",
 						["distance"] = 71.00383142283,
 						["actor"] = daw.Character,
-						["spellName"] = "glacius"
+						["spellName"] = "deletrius"
 					}
 				}
 				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
@@ -2806,7 +2927,7 @@ local function SSBDC_fake_script() -- TextButton_22.LocalScript
 						["id"] = "your mom haha noob",
 						["distance"] = 5.8701998482231,
 						["actor"] = daw.Character,
-						["spellName"] = "glacius"
+						["spellName"] = "deletrius"
 					}
 				}
 				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
@@ -2817,7 +2938,7 @@ local function SSBDC_fake_script() -- TextButton_22.LocalScript
 						["id"] = "your mom haha noob",
 						["distance"] = 12.868257143978,
 						["actor"] = daw.Character,
-						["spellName"] = "glacius"
+						["spellName"] = "deletrius"
 					}
 				}
 				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
@@ -2830,8 +2951,8 @@ local function SSBDC_fake_script() -- TextButton_22.LocalScript
 		
 	end)
 end
-coroutine.wrap(SSBDC_fake_script)()
-local function TEMOS_fake_script() -- TextButton_23.LocalScript 
+coroutine.wrap(HCCP_fake_script)()
+local function EONVCZ_fake_script() -- TextButton_23.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_23)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2850,7 +2971,7 @@ local function TEMOS_fake_script() -- TextButton_23.LocalScript
 						["id"] = "your mom haha noob",
 						["distance"] = 5.8701998482230,
 						["actor"] = daw.Character,
-						["spellName"] = "deletrius"
+						["spellName"] = "silencio"
 					}
 				}
 				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
@@ -2862,7 +2983,7 @@ local function TEMOS_fake_script() -- TextButton_23.LocalScript
 						["id"] = "your mom haha noob",
 						["distance"] = 5.8701998482231,
 						["actor"] = daw.Character,
-						["spellName"] = "deletrius"
+						["spellName"] = "silencio"
 					}
 				}
 				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
@@ -2874,7 +2995,7 @@ local function TEMOS_fake_script() -- TextButton_23.LocalScript
 						["id"] = "your mom haha noob",
 						["distance"] = 21.665488686356,
 						["actor"] = daw.Character,
-						["spellName"] = "deletrius"
+						["spellName"] = "silencio"
 					}
 				}
 				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
@@ -2886,7 +3007,7 @@ local function TEMOS_fake_script() -- TextButton_23.LocalScript
 						["id"] = "your mom haha noob",
 						["distance"] = 71.00383142283,
 						["actor"] = daw.Character,
-						["spellName"] = "deletrius"
+						["spellName"] = "silencio"
 					}
 				}
 				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
@@ -2899,7 +3020,7 @@ local function TEMOS_fake_script() -- TextButton_23.LocalScript
 						["id"] = "your mom haha noob",
 						["distance"] = 5.8701998482231,
 						["actor"] = daw.Character,
-						["spellName"] = "deletrius"
+						["spellName"] = "silencio"
 					}
 				}
 				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
@@ -2910,7 +3031,7 @@ local function TEMOS_fake_script() -- TextButton_23.LocalScript
 						["id"] = "your mom haha noob",
 						["distance"] = 12.868257143978,
 						["actor"] = daw.Character,
-						["spellName"] = "deletrius"
+						["spellName"] = "silencio"
 					}
 				}
 				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
@@ -2922,7 +3043,7 @@ local function TEMOS_fake_script() -- TextButton_23.LocalScript
 						["id"] = "your mom haha noob",
 						["distance"] = 5.8701998482230,
 						["actor"] = daw.Character,
-						["spellName"] = "deletrius"
+						["spellName"] = "silencio"
 					}
 				}
 				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
@@ -2934,7 +3055,7 @@ local function TEMOS_fake_script() -- TextButton_23.LocalScript
 						["id"] = "your mom haha noob",
 						["distance"] = 5.8701998482231,
 						["actor"] = daw.Character,
-						["spellName"] = "deletrius"
+						["spellName"] = "silencio"
 					}
 				}
 				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
@@ -2946,7 +3067,7 @@ local function TEMOS_fake_script() -- TextButton_23.LocalScript
 						["id"] = "your mom haha noob",
 						["distance"] = 21.665488686356,
 						["actor"] = daw.Character,
-						["spellName"] = "deletrius"
+						["spellName"] = "silencio"
 					}
 				}
 				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
@@ -2958,7 +3079,7 @@ local function TEMOS_fake_script() -- TextButton_23.LocalScript
 						["id"] = "your mom haha noob",
 						["distance"] = 71.00383142283,
 						["actor"] = daw.Character,
-						["spellName"] = "deletrius"
+						["spellName"] = "silencio"
 					}
 				}
 				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
@@ -2971,7 +3092,7 @@ local function TEMOS_fake_script() -- TextButton_23.LocalScript
 						["id"] = "your mom haha noob",
 						["distance"] = 5.8701998482231,
 						["actor"] = daw.Character,
-						["spellName"] = "deletrius"
+						["spellName"] = "silencio"
 					}
 				}
 				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
@@ -2982,7 +3103,7 @@ local function TEMOS_fake_script() -- TextButton_23.LocalScript
 						["id"] = "your mom haha noob",
 						["distance"] = 12.868257143978,
 						["actor"] = daw.Character,
-						["spellName"] = "deletrius"
+						["spellName"] = "silencio"
 					}
 				}
 				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
@@ -2995,8 +3116,8 @@ local function TEMOS_fake_script() -- TextButton_23.LocalScript
 		
 	end)
 end
-coroutine.wrap(TEMOS_fake_script)()
-local function QPHN_fake_script() -- TextButton_24.LocalScript 
+coroutine.wrap(EONVCZ_fake_script)()
+local function PDAI_fake_script() -- TextButton_24.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_24)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3015,171 +3136,6 @@ local function QPHN_fake_script() -- TextButton_24.LocalScript
 						["id"] = "your mom haha noob",
 						["distance"] = 5.8701998482230,
 						["actor"] = daw.Character,
-						["spellName"] = "silencio"
-					}
-				}
-				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
-	
-				local args = {
-					[1] = {
-						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
-						["hitPart"] = daw.Character.HumanoidRootPart,
-						["id"] = "your mom haha noob",
-						["distance"] = 5.8701998482231,
-						["actor"] = daw.Character,
-						["spellName"] = "silencio"
-					}
-				}
-				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
-	
-				local args = {
-					[1] = {
-						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
-						["hitPart"] = daw.Character.HumanoidRootPart,
-						["id"] = "your mom haha noob",
-						["distance"] = 21.665488686356,
-						["actor"] = daw.Character,
-						["spellName"] = "silencio"
-					}
-				}
-				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
-	
-				local args = {
-					[1] = {
-						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
-						["hitPart"] = daw.Character.HumanoidRootPart,
-						["id"] = "your mom haha noob",
-						["distance"] = 71.00383142283,
-						["actor"] = daw.Character,
-						["spellName"] = "silencio"
-					}
-				}
-				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
-				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
-	
-				local args = {
-					[1] = {
-						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
-						["hitPart"] = daw.Character.HumanoidRootPart,
-						["id"] = "your mom haha noob",
-						["distance"] = 5.8701998482231,
-						["actor"] = daw.Character,
-						["spellName"] = "silencio"
-					}
-				}
-				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
-				local args = {
-					[1] = {
-						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
-						["hitPart"] = daw.Character.HumanoidRootPart,
-						["id"] = "your mom haha noob",
-						["distance"] = 12.868257143978,
-						["actor"] = daw.Character,
-						["spellName"] = "silencio"
-					}
-				}
-				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
-	
-				local args = {
-					[1] = {
-						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
-						["hitPart"] = daw.Character.HumanoidRootPart,
-						["id"] = "your mom haha noob",
-						["distance"] = 5.8701998482230,
-						["actor"] = daw.Character,
-						["spellName"] = "silencio"
-					}
-				}
-				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
-	
-				local args = {
-					[1] = {
-						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
-						["hitPart"] = daw.Character.HumanoidRootPart,
-						["id"] = "your mom haha noob",
-						["distance"] = 5.8701998482231,
-						["actor"] = daw.Character,
-						["spellName"] = "silencio"
-					}
-				}
-				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
-	
-				local args = {
-					[1] = {
-						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
-						["hitPart"] = daw.Character.HumanoidRootPart,
-						["id"] = "your mom haha noob",
-						["distance"] = 21.665488686356,
-						["actor"] = daw.Character,
-						["spellName"] = "silencio"
-					}
-				}
-				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
-	
-				local args = {
-					[1] = {
-						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
-						["hitPart"] = daw.Character.HumanoidRootPart,
-						["id"] = "your mom haha noob",
-						["distance"] = 71.00383142283,
-						["actor"] = daw.Character,
-						["spellName"] = "silencio"
-					}
-				}
-				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
-				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
-	
-				local args = {
-					[1] = {
-						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
-						["hitPart"] = daw.Character.HumanoidRootPart,
-						["id"] = "your mom haha noob",
-						["distance"] = 5.8701998482231,
-						["actor"] = daw.Character,
-						["spellName"] = "silencio"
-					}
-				}
-				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
-				local args = {
-					[1] = {
-						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
-						["hitPart"] = daw.Character.HumanoidRootPart,
-						["id"] = "your mom haha noob",
-						["distance"] = 12.868257143978,
-						["actor"] = daw.Character,
-						["spellName"] = "silencio"
-					}
-				}
-				game:GetService("InsertService").Events.spellHit:FireServer(unpack(args))
-	
-	
-			else
-				print("sheesh")
-			end
-		end
-		
-	end)
-end
-coroutine.wrap(QPHN_fake_script)()
-local function HTFN_fake_script() -- TextButton_25.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_25)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-		while true do
-			wait(0.2)
-			local players = game.Players:GetPlayers()
-			local daw = players[math.random(1,#players)]
-			-- Script generated by SimpleSpy - credits to exx#9394
-			if daw.Character.Humanoid.Health >= 0 then
-	
-				local args = {
-					[1] = {
-						["hitCf"] = daw.Character.HumanoidRootPart.CFrame,
-						["hitPart"] = daw.Character.HumanoidRootPart,
-						["id"] = "your mom haha noob",
-						["distance"] = 5.8701998482230,
-						["actor"] = daw.Character,
 						["spellName"] = "obscuro"
 					}
 				}
@@ -3325,8 +3281,8 @@ local function HTFN_fake_script() -- TextButton_25.LocalScript
 		
 	end)
 end
-coroutine.wrap(HTFN_fake_script)()
-local function LOUOGWC_fake_script() -- OpenButton1.LocalScript 
+coroutine.wrap(PDAI_fake_script)()
+local function CSWFS_fake_script() -- OpenButton1.LocalScript 
 	local script = Instance.new('LocalScript', OpenButton1)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3334,8 +3290,8 @@ local function LOUOGWC_fake_script() -- OpenButton1.LocalScript
 		script.Parent.Parent.Premium.Visible = true
 	end)
 end
-coroutine.wrap(LOUOGWC_fake_script)()
-local function AECQEE_fake_script() -- OpenButton2.LocalScript 
+coroutine.wrap(CSWFS_fake_script)()
+local function TWMYKM_fake_script() -- OpenButton2.LocalScript 
 	local script = Instance.new('LocalScript', OpenButton2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3343,8 +3299,8 @@ local function AECQEE_fake_script() -- OpenButton2.LocalScript
 		script.Parent.Parent.Premium2.Visible = true
 	end)
 end
-coroutine.wrap(AECQEE_fake_script)()
-local function KHNP_fake_script() -- TextLabel_24.LocalScript 
+coroutine.wrap(TWMYKM_fake_script)()
+local function ZKDMXVU_fake_script() -- TextLabel_24.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_24)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -3357,8 +3313,8 @@ local function KHNP_fake_script() -- TextLabel_24.LocalScript
 		counter = counter + 0.01
 	end
 end
-coroutine.wrap(KHNP_fake_script)()
-local function CMPBEF_fake_script() -- TextButton2.LocalScript 
+coroutine.wrap(ZKDMXVU_fake_script)()
+local function NOWL_fake_script() -- TextButton2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -3368,20 +3324,20 @@ local function CMPBEF_fake_script() -- TextButton2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CMPBEF_fake_script)()
-local function ICEEFJC_fake_script() -- TextButton_26.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_26)
+coroutine.wrap(NOWL_fake_script)()
+local function DPJBN_fake_script() -- TextButton_25.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_25)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 		script.Parent.Parent.Parent.Main.Visible = true
 	end)
 end
-coroutine.wrap(ICEEFJC_fake_script)()
-local function ECSU_fake_script() -- Activate.LocalScript 
+coroutine.wrap(DPJBN_fake_script)()
+local function OKQCD_fake_script() -- Activate.LocalScript 
 	local script = Instance.new('LocalScript', Activate)
 
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(ECSU_fake_script)()
+coroutine.wrap(OKQCD_fake_script)()
